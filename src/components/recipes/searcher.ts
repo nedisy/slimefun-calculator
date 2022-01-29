@@ -1,13 +1,6 @@
+import type { KeyNumberPair, RecipeObject } from '../types'
+
 const recipes: {[key: string]: Object} = require('./recipes.json')
-
-type RecipeObject = {
-    obtained: number,
-    obtaining: string,
-    require: {[key: string]: number}
-}
-
-type KeyNumberPair = {[key: string]: number}
-
 
 const searcher: Function = ( item_id: string, number: number ): Object => {
     const selected: Object = recipes[item_id]

@@ -3,14 +3,13 @@ import './App.css';
 import ItemForm from './components/item-form';
 import Result from './components/result';
 import { searchItem } from './components/recipes'
- 
-type KeyNumberPair = {[key: string]: number}
+import type { KeyNumberPair } from './components/types'
 
 class App extends React.Component {
   state = { 
     itemName: '',
     itemNumber: 1,
-    calculatedItems: [],
+    calculatedItems: {},
     itemError: ''
   }
 
@@ -31,9 +30,10 @@ class App extends React.Component {
         calculatedItems,
         itemError: ''
       })    
-    } catch (error: typeof error) {
+    } catch (error: any) {
+      const calculatedItems: KeyNumberPair =  {}
       this.setState({
-        calculatedItems: [],
+        calculatedItems,
         itemError: error.message
       })
     }

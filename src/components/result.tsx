@@ -1,6 +1,5 @@
 import * as React from 'react';
-
-type KeyNumberPair = {[key: string]: number}
+import type { KeyNumberPair } from './types'
 
 interface ResultProps {
     calculatedItems: KeyNumberPair
