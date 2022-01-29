@@ -1,0 +1,41 @@
+const recipes: {[key: string]: Object} = require('./recipes.json')
+
+type RecipeObject = {
+    obtained: number,
+    obtaining: string,
+    require: {[key: string]: number}
+}
+
+type KeyNumberPair = {[key: string]: number}
+
+
+const searcher: Function = ( item_id: string, number: number ): Object => {
+    const selected: Object = recipes[item_id]
+    let listed: KeyNumberPair = {}
+    if (!selected) {
+        throw Error(`could not find ${item_id} in the recipe book`)
+    }
+    else {
+        deepSearch(selected, listed, number)
+        return listed
+    }
+}
+
+export default searcher
+
+const deepSearch: Function = ( item: RecipeObject, listed: KeyNumberPair, multiplier: number): void => {
+    const keys = Object.keys(item.require)
+    keys.forEach((value) => {
+        const requiredExist = recipes[value]
+        if (!requiredExist) {
+            if (listed[value]) {
+                listed[value] += multiplier*item.require[value]
+            } else {
+                listed[value] = multiplier*item.require[value]
+            }
+            return
+        } else {
+            deepSearch(requiredExist, listed, Math.ceil(multiplier / item.obtained) * item.require[value])
+        }
+    })
+}
