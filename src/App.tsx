@@ -2,14 +2,16 @@ import React from 'react';
 import './App.css';
 import ItemForm from './components/item-form';
 import Result from './components/result';
-import { searchItem } from './components/recipes'
-import type { KeyNumberPair } from './components/types'
+import StepResult from './components/step-result';
+import { searchItem, stepSearchItem } from './components/recipes'
+import type { KeyNumberPair, StepObjects } from './components/types'
 
 class App extends React.Component {
   state = { 
     itemName: '',
     itemNumber: 1,
     calculatedItems: {},
+    calculatedSteps: [],
     itemError: ''
   }
 
@@ -24,12 +26,14 @@ class App extends React.Component {
   }
 
   handleSubmit = () => {
+    const calculatedSteps: StepObjects[] = stepSearchItem(this.state.itemName, this.state.itemNumber)
     try {
       const calculatedItems: KeyNumberPair = searchItem(this.state.itemName, this.state.itemNumber)
       this.setState({ 
         calculatedItems,
+        calculatedSteps,
         itemError: ''
-      })    
+      })
     } catch (error: any) {
       const calculatedItems: KeyNumberPair =  {}
       this.setState({
@@ -52,6 +56,9 @@ class App extends React.Component {
         <Result 
           calculatedItems={this.state.calculatedItems}
           errorMessage={this.state.itemError}
+        />
+        <StepResult
+          calculatedSteps={this.state.calculatedSteps}
         />
       </div>
      );

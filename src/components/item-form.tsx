@@ -20,7 +20,7 @@ class ItemForm extends React.Component<ItemFormProps> {
             this.setState({ inputWarning: "please enter item name" })
             return
         }
-        if (itemNumber === undefined || itemNumber === NaN) {
+        if (itemNumber === undefined || isNaN(itemNumber)) {
             this.setState({ inputWarning: "please enter item number" })
             return
         }
