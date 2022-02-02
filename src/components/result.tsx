@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { KeyNumberPair, StepObjects } from './types'
+import type { StepObjects } from './types'
 
 interface ResultProps {
     calculatedSteps: StepObjects[]

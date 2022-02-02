@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Collapsible from 'react-collapsible'
 import deepEqual from 'fast-deep-equal'
-import type { KeyNumberPair, KeyBoolPair, StepObjects } from './types'
+import type { KeyBoolPair, StepObjects } from './types'
 
 const clone = require("deepclone");
 
