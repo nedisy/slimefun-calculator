@@ -1,9 +1,9 @@
 import type { KeyNumberPair, RecipeObject } from '../types'
 
-const recipes: {[key: string]: Object} = require('./recipes.json')
+const recipes: {[key: string]: RecipeObject} = require('./recipes.json')
 
 const searcher: Function = ( item_id: string, number: number ): Object => {
-    const selected: Object = recipes[item_id]
+    const selected: RecipeObject = recipes[item_id]
     let listed: KeyNumberPair = {}
     if (!selected) {
         throw Error(`could not find ${item_id} in the recipe book`)

@@ -1,10 +1,18 @@
-type KeyNumberPair = {[key: string]: number}
+export type KeyNumberPair = {[key: string]: number}
 
-type RecipeObject = {
+export type KeyBoolPair = {[key: string]: boolean}
+
+export type RecipeObject = {
     obtained: number,
     obtaining: string,
-    require: {[key: string]: number}
+    require: KeyNumberPair
 }
 
+export type StepObject = {
+    required: number,
+    obtained: number,
+    obtaining: string,
+    require: KeyNumberPair
+}
 
-export type { KeyNumberPair, RecipeObject }
+export type StepObjects = {[key: string]: StepObject}
