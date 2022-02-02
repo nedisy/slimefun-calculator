@@ -7,6 +7,7 @@ const clone = require("deepclone");
 
 interface StepResultProps {
     calculatedSteps: StepObjects[]
+    errorMessage: string
 }
 
 interface StepGuiStates {
@@ -98,6 +99,12 @@ class StepResult extends React.PureComponent<StepResultProps> {
     }
 
     render() { 
+        if (this.props.errorMessage) {
+            return <div className="text-start text-danger">{this.props.errorMessage}</div>
+        }
+        if (this.props.calculatedSteps.length === 0) {
+            return ''
+        }
         return ( 
             <div className="text-start text-light">
                 <div className="mb-3 bg-dark rounded row justify-content-between position-relative">
