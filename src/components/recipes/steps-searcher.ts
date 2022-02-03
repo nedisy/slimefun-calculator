@@ -29,6 +29,16 @@ const deepStepSearch: Function = (listed: StepObjects[], exceptions: KeyNumberPa
 
     let currentStepKeys: string[] = Object.keys(currentStep)
 
+    currentStepKeys.forEach((currentStepKey) => {
+        if (Object.keys(exceptions).includes(currentStepKey)) {
+            listed[currentStepIndex][currentStepKey].required = Math.max(0, currentStep[currentStepKey].required - exceptions[currentStepKey])                
+            if (listed[currentStepIndex][currentStepKey].required === 0) {
+                delete listed[currentStepIndex][currentStepKey]
+                currentStepKeys = currentStepKeys.filter(key => key !== currentStepKey)
+            }
+        }
+    })
+
     currentStepKeys.forEach((name) => {
         Object.keys(currentStep[name].require).forEach((requiredObject) => {
             const isInRecipe: StepObject = recipes[requiredObject] as StepObject
@@ -91,14 +101,6 @@ const deepStepSearch: Function = (listed: StepObjects[], exceptions: KeyNumberPa
                 })
                 delete currentStep[name]
                 currentStepKeys = currentStepKeys.filter(key => key !== name)
-            }
-        })
-        nextStepKeys.forEach((nextStepKey) => {
-            if (Object.keys(exceptions).includes(nextStepKey)) {
-                listed[currentStepIndex + 1][nextStepKey].required = Math.max(0, nextStep[nextStepKey].required - exceptions[nextStepKey])                
-                if (listed[currentStepIndex + 1][nextStepKey].required === 0) {
-                    delete listed[currentStepIndex + 1][nextStepKey]
-                }
             }
         })
         deepStepSearch(listed, exceptions)

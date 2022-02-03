@@ -8,6 +8,9 @@ import type { KeyNumberPair, StepObjects } from './components/types'
 
 const clone = require("deepclone");
 
+// TODO: Use https://github.com/WalshyDev/SFItemsExporter to export items.json
+// and convert it to recipes.json for this app to get full recipes
+
 class App extends React.Component {
   state = { 
     itemName: '',
@@ -62,8 +65,13 @@ class App extends React.Component {
     try {
       const exceptions: KeyNumberPair = {}
       this.state.exceptions.forEach((pair) => {
-        exceptions[pair[0]] = pair[1]
+        if (exceptions[pair[0]]) {
+          exceptions[pair[0]] += Number(pair[1])
+        } else {
+          exceptions[pair[0]] = Number(pair[1])
+        }
       })
+      console.log(exceptions)
       const calculatedSteps: StepObjects[] = stepSearchItem(this.state.itemName, this.state.itemNumber, exceptions)
       const calculatedItems: KeyNumberPair = searchItem(this.state.itemName, this.state.itemNumber)
       this.setState({ 

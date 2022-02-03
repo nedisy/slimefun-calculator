@@ -77,8 +77,8 @@ class ItemForm extends React.Component<ItemFormProps> {
             <div className="text-start">
                 <p className="h1 mb-3 text-light fs-2">Enter slimefun item name and number</p>
                 <form onSubmit={this.onSubmit}>
-                    <div className="mb-3 row">
-                        <div className="col-10">
+                    <div className="mb-3 row g-2">
+                        <div className="col-sm-10 col-12">
                             <input
                                 className="form-control"
                                 type="text"
@@ -88,9 +88,9 @@ class ItemForm extends React.Component<ItemFormProps> {
                                 placeholder="item_name"
                             ></input>
                             </div>
-                        <div className="col-2">
+                        <div className="col-sm-auto col-auto">
                             <input
-                                className="form-control"
+                                className="form-control fixed-width-px-75"
                                 type="number"
                                 id="itemNumber"
                                 value={this.props.itemNumber}
@@ -105,12 +105,12 @@ class ItemForm extends React.Component<ItemFormProps> {
                         </div>
                         {this.props.exceptions.map((value, index) => {
                             return (
-                                <div className="mb-3 ms-5 row"
+                                <div className="mb-3 ms-5 row g-2"
                                     id={`exception-${index}`}
                                     key={`exception-${index}`}
                                 >
                                     <div 
-                                        className="col-8"
+                                        className="col-md-8 col-sm-10 col-12"
                                     >
                                         <input
                                             className="form-control"
@@ -121,9 +121,9 @@ class ItemForm extends React.Component<ItemFormProps> {
                                             placeholder="exception_item_name"
                                         ></input>
                                         </div>
-                                    <div className="col-1">
+                                    <div className="col-md-auto col-sm-auto col-auto">
                                         <input
-                                            className="form-control"
+                                            className="form-control fixed-width-px-75"
                                             type="number"
                                             id={`exception-number-${index}`}
                                             value={value[1]}
@@ -131,21 +131,32 @@ class ItemForm extends React.Component<ItemFormProps> {
                                             placeholder="64"
                                         ></input>
                                     </div>
-                                    <button
-                                        type="button"
-                                        className="btn btn-outline-light col-1"
-                                        id={index.toString()}
-                                        onClick={(e: any) => this.props.onDeleteException(e)}
-                                    >Delete</button>
+                                    <div className="col-md-auto col-sm-auto col-auto">
+                                        <button
+                                            type="button"
+                                            className="btn btn-outline-light"
+                                            id={index.toString()}
+                                            onClick={(e: any) => this.props.onDeleteException(e)}
+                                        >Delete</button>
+                                    </div>
                                 </div>
                             )
                         })}
                     </div>
-                    <div className="row mb-3 ms-5 form-text text-secondary">
-                        <div className="col-9">
-                        {this.props.exceptions.length === 0 ? 'Already have some of the required items? add exceptions' : ''}
+                    <div className="row g-2 mb-3 ms-5 form-text text-secondary">
+                        {this.props.exceptions.length === 0 ?
+                            <div className={`col-md-auto col-auto`}>
+                                Already have some of the required items? add exceptions
+                            </div>
+                        :
+                            <React.Fragment>
+                                <div className="col-md-8"></div>
+                                <div className="col-md-auto col-auto"><div className="fixed-width-px-75"></div></div>
+                            </React.Fragment>
+                        }
+                        <div className="col-md-auto col-auto">
+                            <button type="button" className="btn btn-outline-light" onClick={() => this.props.onAddException()}>Add</button>
                         </div>
-                        <button type="button" className="btn btn-outline-light col-1" onClick={() => this.props.onAddException()}>Add</button>
                     </div>
                     <div className="mb-3 form-text text-warning">
                         {this.state.inputWarning}

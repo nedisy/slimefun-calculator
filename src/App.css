@@ -24,3 +24,15 @@
 .checklist-checked {
   text-decoration: line-through;
 }
+
+.fixed-width-px-100 {
+  width: 100px;
+}
+
+.fixed-width-px-75 {
+  width: 75px;
+}
+
+.fixed-width-px-50 {
+  width: 50px;
+}
