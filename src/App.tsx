@@ -71,7 +71,6 @@ class App extends React.Component {
           exceptions[pair[0]] = Number(pair[1])
         }
       })
-      console.log(exceptions)
       const calculatedSteps: StepObjects[] = stepSearchItem(this.state.itemName, this.state.itemNumber, exceptions)
       const calculatedItems: KeyNumberPair = searchItem(this.state.itemName, this.state.itemNumber)
       this.setState({ 

@@ -16,15 +16,15 @@ const searcher: Function = ( item_id: string, number: number ): Object => {
 
 export default searcher
 
-const deepSearch: Function = ( item: RecipeObject, listed: KeyNumberPair, multiplier: number): void => {
+const deepSearch: Function = ( item: RecipeObject, listed: KeyNumberPair, multiplier: number = 1): void => {
     const keys = Object.keys(item.require)
     keys.forEach((value) => {
         const requiredExist = recipes[value]
         if (!requiredExist) {
             if (listed[value]) {
-                listed[value] += multiplier*item.require[value]
+                listed[value] += (multiplier / item.obtained)*item.require[value]
             } else {
-                listed[value] = multiplier*item.require[value]
+                listed[value] = (multiplier / item.obtained)*item.require[value]
             }
             return
         } else {

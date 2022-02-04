@@ -1,4 +1,7 @@
-import * as React from 'react';
+import * as React from 'react'
+import type { RecipeObject, StepObject, StepObjects, KeyNumberPair } from './types'
+
+const recipes: {[key: string]: RecipeObject} = require('./recipes/recipes.json')
 
 interface ItemFormProps {
     itemName: string,
@@ -75,6 +78,13 @@ class ItemForm extends React.Component<ItemFormProps> {
     render() { 
         return (
             <div className="text-start">
+                <datalist id="items">
+                    {Object.keys(recipes).map((name) => {
+                        return (
+                            <option value={name} key={name}></option>
+                        )
+                    })}
+                </datalist>
                 <p className="h1 mb-3 text-light fs-2">Enter slimefun item name and number</p>
                 <form onSubmit={this.onSubmit}>
                     <div className="mb-3 row g-2">
@@ -82,6 +92,7 @@ class ItemForm extends React.Component<ItemFormProps> {
                             <input
                                 className="form-control"
                                 type="text"
+                                list="items"
                                 id="itemName"
                                 value={this.props.itemName}
                                 onChange={(e: any) => this.props.onChange(e)}
@@ -115,6 +126,7 @@ class ItemForm extends React.Component<ItemFormProps> {
                                         <input
                                             className="form-control"
                                             type="text"
+                                            list="items"
                                             id={`exception-string-${index}`}
                                             value={value[0]}
                                             onChange={(e: any) => this.props.onChange(e)}

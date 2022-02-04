@@ -44,7 +44,7 @@ const deepStepSearch: Function = (listed: StepObjects[], exceptions: KeyNumberPa
             const isInRecipe: StepObject = recipes[requiredObject] as StepObject
             if (isInRecipe) {
                 const toBeListed: StepObject = clone(isInRecipe)
-                toBeListed['required'] = currentStep[name].require[requiredObject]*Math.ceil(currentStep[name].required/toBeListed.obtained)
+                toBeListed['required'] = currentStep[name].require[requiredObject]*Math.ceil(currentStep[name].required/currentStep[name].obtained)
                 if (!listed[currentStepIndex + 1]){
                     listed[currentStepIndex + 1] = {}
                 }
@@ -55,7 +55,7 @@ const deepStepSearch: Function = (listed: StepObjects[], exceptions: KeyNumberPa
                 }
             } else {
                 const toBeListed: StepObject = {
-                    required: currentStep[name].required*currentStep[name].require[requiredObject],
+                    required: currentStep[name].require[requiredObject]*Math.ceil(currentStep[name].required/currentStep[name].obtained),
                     obtained: 1,
                     obtaining: "gathering",
                     require: {}
@@ -94,9 +94,9 @@ const deepStepSearch: Function = (listed: StepObjects[], exceptions: KeyNumberPa
                 Object.keys(currentStep[name].require).forEach((requiredObject) => {
                     const isInRecipe = recipes[requiredObject]
                     if (isInRecipe) {
-                        listed[currentStepIndex + 1][requiredObject].required -= currentStep[name].require[requiredObject]*Math.ceil(currentStep[name].required/isInRecipe.obtained)
+                        listed[currentStepIndex + 1][requiredObject].required -= currentStep[name].require[requiredObject]*Math.ceil(currentStep[name].required/currentStep[name].obtained)
                     } else {
-                        listed[currentStepIndex + 1][requiredObject].required -= currentStep[name].required*currentStep[name].require[requiredObject]
+                        listed[currentStepIndex + 1][requiredObject].required -= currentStep[name].require[requiredObject]*Math.ceil(currentStep[name].required/currentStep[name].obtained)
                     }
                 })
                 delete currentStep[name]
