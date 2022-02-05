@@ -3,19 +3,31 @@ import type { RecipeObject, StepObject, StepObjects, KeyNumberPair } from '../ty
 const clone = require("deepclone");
 const recipes: {[key: string]: RecipeObject} = require('./recipes.json')
 
-const stepSearcher: Function = ( item_id: string, number: number , exceptions: KeyNumberPair = {}): StepObjects[] => {
-    const selected: StepObject = clone(recipes[item_id]) as StepObject
-    if (!selected) {
-        throw Error(`could not find ${item_id} in the recipe book`)
-    }
-    else {
-        selected.required = number
-        const finalStepObject: StepObjects = {}
-        finalStepObject[item_id] = selected
-        let listed: StepObjects[] = [finalStepObject]
-        deepStepSearch(listed, exceptions)
-        return listed
-    }
+const stepSearcher: Function = ( items: [string, number][], exceptions: KeyNumberPair = {}): StepObjects[] => {
+    let listed: StepObjects[] = [{}]
+    items.forEach((value) => {
+        const itemName = value[0]
+        const itemNumber = value[1]
+        if (listed[0][itemName]) {
+            listed[0][itemName].required += itemNumber 
+        } else {
+            const selected: StepObject = clone(recipes[itemName]) as StepObject
+            if (!selected) {
+                listed[0][itemName] = {
+                    required: value[1],
+                    obtained: 1,
+                    obtaining: "gathering",
+                    require: {}
+                }
+            } else {
+                selected.required = value[1]
+                listed[0][value[0]] = selected
+            }            
+        }
+    })
+
+    deepStepSearch(listed, exceptions)
+    return listed
 }
 
 export default stepSearcher

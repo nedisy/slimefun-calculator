@@ -554,7 +554,7 @@
     },
     "raw_carbonado": {
         "obtained": 1,
-        "obtaining": "smeltery",
+        "obtaining": "enhanced_crafting_table",
         "require": {
             "synthetic_diamond": 1,
             "carbon_chunk": 1,

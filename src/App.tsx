@@ -3,19 +3,24 @@ import './App.css';
 import ItemForm from './components/item-form';
 import Result from './components/result';
 import StepResult from './components/step-result';
-import { searchItem, stepSearchItem } from './components/recipes'
+import { stepSearchItem } from './components/recipes'
 import type { KeyNumberPair, StepObjects } from './components/types'
 
 const clone = require("deepclone");
+
+interface AppState {
+  items: [string, number][],
+  calculatedSteps: StepObjects[],
+  exceptions: [string, number][],
+  itemError: string
+}
 
 // TODO: Use https://github.com/WalshyDev/SFItemsExporter to export items.json
 // and convert it to recipes.json for this app to get full recipes
 
 class App extends React.Component {
-  state = { 
-    itemName: '',
-    itemNumber: 1,
-    calculatedItems: {},
+  state: AppState = { 
+    items: [['',1]],
     calculatedSteps: [],
     exceptions: [],
     itemError: ''
@@ -23,12 +28,25 @@ class App extends React.Component {
 
   handleChange = (e: any) => {
     const target = e.target
-    if (target.id === "itemName") {
-      this.setState({ itemName: target.value })
+
+    const itemStringStr = "item-string-"
+    const itemStringIndex = target.id.indexOf(itemStringStr)
+    if (itemStringIndex >= 0) {
+      const itemIndex = Number(target.id.slice(itemStringStr.length))
+      const changedItems = clone(this.state.items)
+      changedItems[itemIndex][0] = target.value
+      this.setState({ items: changedItems })
     }
-    if (target.id === "itemNumber") {
-      this.setState({ itemNumber: target.value })
+
+    const itemNumberStr = "item-number-"
+    const itemNumberIndex = target.id.indexOf(itemNumberStr)
+    if (itemNumberIndex >= 0) {
+      const itemIndex = Number(target.id.slice(itemNumberStr.length))
+      const changedItems = clone(this.state.items)
+      changedItems[itemIndex][1] = target.value
+      this.setState({ items: changedItems })
     }
+
     const exceptionStringStr = "exception-string-"
     const exceptionStringIndex = target.id.indexOf(exceptionStringStr)
     if (exceptionStringIndex >= 0) {
@@ -47,6 +65,18 @@ class App extends React.Component {
     }
   }
 
+  handleAddItem = () => {
+    const changedItems = clone(this.state.items)
+    changedItems.push(['',1])
+    this.setState({ items: changedItems })
+  }
+
+  handleDeleteItem = (index: number) => {
+    const changedItems = clone(this.state.items)
+    changedItems.splice(index, 1)
+    this.setState({ items: changedItems })
+  }
+
   handleAddException = () => {
     const changedExceptions = clone(this.state.exceptions)
     changedExceptions.push(['',1])
@@ -63,6 +93,8 @@ class App extends React.Component {
 
   handleSubmit = () => {
     try {
+      const items: [string, number][] = clone(this.state.items)
+
       const exceptions: KeyNumberPair = {}
       this.state.exceptions.forEach((pair) => {
         if (exceptions[pair[0]]) {
@@ -71,10 +103,8 @@ class App extends React.Component {
           exceptions[pair[0]] = Number(pair[1])
         }
       })
-      const calculatedSteps: StepObjects[] = stepSearchItem(this.state.itemName, this.state.itemNumber, exceptions)
-      const calculatedItems: KeyNumberPair = searchItem(this.state.itemName, this.state.itemNumber)
+      const calculatedSteps: StepObjects[] = stepSearchItem(items, exceptions)
       this.setState({ 
-        calculatedItems,
         calculatedSteps,
         itemError: ''
       })
@@ -94,9 +124,10 @@ class App extends React.Component {
       <div className="App container-sm position-absolute top-0 start-50 translate-middle-x">
         <h1 className="text-light mt-5 mb-3">Slimefun Calculator</h1>
         <ItemForm
-          itemName={this.state.itemName}
-          itemNumber={this.state.itemNumber}
+          items={this.state.items}
           exceptions={this.state.exceptions}
+          onAddItem={this.handleAddItem}
+          onDeleteItem={this.handleDeleteItem}
           onAddException={this.handleAddException}
           onDeleteException={this.handleDeleteException}
           onChange={this.handleChange}
