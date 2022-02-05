@@ -6,8 +6,8 @@ const recipes: {[key: string]: RecipeObject} = require('./recipes.json')
 const stepSearcher: Function = ( items: [string, number][], exceptions: KeyNumberPair = {}): StepObjects[] => {
     let listed: StepObjects[] = [{}]
     items.forEach((value) => {
-        const itemName = value[0]
-        const itemNumber = value[1]
+        const itemName: string = value[0]
+        const itemNumber: number = Number(value[1])
         if (listed[0][itemName]) {
             listed[0][itemName].required += itemNumber 
         } else {
@@ -20,7 +20,7 @@ const stepSearcher: Function = ( items: [string, number][], exceptions: KeyNumbe
                     require: {}
                 }
             } else {
-                selected.required = value[1]
+                selected.required = itemNumber
                 listed[0][value[0]] = selected
             }            
         }
