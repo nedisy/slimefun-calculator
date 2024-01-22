@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/slimefun-calculator/static/css/main.520bceb1.css",
-    "main.js": "/slimefun-calculator/static/js/main.58966599.js",
+    "main.js": "/slimefun-calculator/static/js/main.7a920135.js",
     "static/js/787.460745f7.chunk.js": "/slimefun-calculator/static/js/787.460745f7.chunk.js",
     "index.html": "/slimefun-calculator/index.html",
     "main.520bceb1.css.map": "/slimefun-calculator/static/css/main.520bceb1.css.map",
-    "main.58966599.js.map": "/slimefun-calculator/static/js/main.58966599.js.map",
+    "main.7a920135.js.map": "/slimefun-calculator/static/js/main.7a920135.js.map",
     "787.460745f7.chunk.js.map": "/slimefun-calculator/static/js/787.460745f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.520bceb1.css",
-    "static/js/main.58966599.js"
+    "static/js/main.7a920135.js"
   ]
 }
