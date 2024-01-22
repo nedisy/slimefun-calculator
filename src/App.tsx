@@ -16,7 +16,9 @@ interface AppState {
 }
 
 // TODO: Use https://github.com/WalshyDev/SFItemsExporter to export items.json
-// and convert it to recipes.json for this app to get full recipes
+// and convert it to recipes.json for this app to get full recipes. COMPLETED!!!!!!
+// 
+// TODO: regularly update as slimefun update with item2recipes.py
 
 class App extends React.Component {
   state: AppState = { 
