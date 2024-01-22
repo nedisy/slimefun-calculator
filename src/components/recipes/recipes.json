@@ -2495,13 +2495,6 @@
             "writable_book": 1
         }
     },
-    "flask of knowledge": {
-        "obtained": 1,
-        "obtaining": "interact",
-        "require": {
-            "flask of knowledge": 1
-        }
-    },
     "birthday cake": {
         "obtained": 1,
         "obtaining": "enhanced_crafting_table",
