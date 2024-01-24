@@ -10,21 +10,18 @@ def clean_name(input_text):
 
 
 def reformat_item(item):
-    item_name = clean_name(item['name'])
+    item_name = clean_name(item['id'])
     formatted_item = {
         item_name: {
-            "obtained": item['recipe']['output']['amount'],
-            "obtaining": item['recipe_type']['key'].split(":")[1],
+            "obtained": item['output'],
+            "obtaining": item['recipeType'].split(":")[1],
             "require": {}
         }
     }
     
-    for ingredient in item['recipe']['ingredients']:
-        if ingredient and ingredient['type']:
-            ingredient_name = ''
-            if 'meta' not in ingredient: ingredient_name = ingredient['type'].lower()
-            elif 'display_name' not in ingredient['meta']: ingredient_name = ingredient['type'].lower()
-            else: ingredient_name = clean_name(ingredient['meta']['display_name'])
+    for ingredient in item['recipe']:
+        if ingredient and ingredient['material']:
+            ingredient_name = clean_name(ingredient['material'])
             if ingredient_name not in formatted_item[item_name]["require"]: formatted_item[item_name]["require"][ingredient_name] = 0
             formatted_item[item_name]["require"][ingredient_name] += ingredient.get('amount', 1)
     
@@ -35,11 +32,11 @@ def main():
     script_directory = os.path.dirname(os.path.abspath(__file__))
     
     # Construct the absolute path to the input file
-    input_file_path = os.path.join(script_directory, "items_2024_01_22.json")
+    input_file_path = os.path.join(script_directory, "items_2024_01_25_official_communit_plugins.json")
     
     try:
         # Attempt to read the file
-        with open(input_file_path, 'r') as file:
+        with open(input_file_path, 'r', encoding='utf-8') as file:
             input_data = json.load(file)
     except FileNotFoundError:
         # Print the files in the script's directory for debugging

@@ -1,0 +1,4588 @@
+{
+    "grandmas walking stick": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "oak_log": 3
+        }
+    },
+    "grandpas walking stick": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "leather": 2,
+            "oak_log": 3
+        }
+    },
+    "portable crafter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "book": 1,
+            "crafting_table": 1
+        }
+    },
+    "fortune cookie": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cookie": 1,
+            "paper": 1
+        }
+    },
+    "diet cookie": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "cookie": 1,
+            "elytra scale": 1
+        }
+    },
+    "output chest": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lead ingot": 5,
+            "hopper": 1,
+            "chest": 1
+        }
+    },
+    "enhanced crafting table": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "crafting_table": 1,
+            "dispenser": 1
+        }
+    },
+    "beef jerky": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "salt": 1,
+            "cooked_beef": 1
+        }
+    },
+    "pork jerky": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "salt": 1,
+            "cooked_porkchop": 1
+        }
+    },
+    "chicken jerky": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "salt": 1,
+            "cooked_chicken": 1
+        }
+    },
+    "mutton jerky": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "salt": 1,
+            "cooked_mutton": 1
+        }
+    },
+    "rabbit jerky": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "salt": 1,
+            "cooked_rabbit": 1
+        }
+    },
+    "fish jerky": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "salt": 1,
+            "cooked_cod": 1
+        }
+    },
+    "kelp cookie": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "dried_kelp": 4,
+            "sugar": 1
+        }
+    },
+    "grind stone": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "oak_fence": 1,
+            "dispenser (facing up)": 1
+        }
+    },
+    "armor forge": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "anvil": 1,
+            "dispenser (facing up)": 1
+        }
+    },
+    "ore crusher": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "nether_brick_fence": 1,
+            "iron_bars": 2,
+            "dispenser (facing up)": 1
+        }
+    },
+    "compressor": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "nether_brick_fence": 1,
+            "piston": 2,
+            "dispenser (facing up)": 1
+        }
+    },
+    "magical lump - i": {
+        "obtained": 2,
+        "obtaining": "grind_stone",
+        "require": {
+            "nether_wart": 1
+        }
+    },
+    "magical lump - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "magical lump - i": 4
+        }
+    },
+    "magical lump - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "magical lump - ii": 4
+        }
+    },
+    "ender lump - i": {
+        "obtained": 2,
+        "obtaining": "grind_stone",
+        "require": {
+            "ender_eye": 1
+        }
+    },
+    "ender lump - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "ender lump - i": 4
+        }
+    },
+    "ender lump - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "ender lump - ii": 4
+        }
+    },
+    "ender backpack": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - ii": 4,
+            "leather": 4,
+            "chest": 1
+        }
+    },
+    "ender helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "ender lump - i": 2,
+            "ender_eye": 1,
+            "obsidian": 2
+        }
+    },
+    "ender chestplate": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "ender lump - i": 2,
+            "obsidian": 5,
+            "ender_eye": 1
+        }
+    },
+    "ender leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "ender lump - i": 2,
+            "ender_eye": 1,
+            "obsidian": 4
+        }
+    },
+    "ender boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "ender lump - i": 2,
+            "obsidian": 2
+        }
+    },
+    "magic eye of ender": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - ii": 4,
+            "ender_pearl": 4,
+            "ender_eye": 1
+        }
+    },
+    "magic sugar": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "sugar": 1,
+            "redstone": 1,
+            "glowstone_dust": 1
+        }
+    },
+    "monster jerky": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "salt": 1,
+            "rotten_flesh": 1
+        }
+    },
+    "slime helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "slime_ball": 4,
+            "steel plate": 1
+        }
+    },
+    "slime chestplate": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "slime_ball": 7,
+            "steel plate": 1
+        }
+    },
+    "slime leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "slime_ball": 6,
+            "steel plate": 1
+        }
+    },
+    "slime boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "slime_ball": 4,
+            "steel plate": 1
+        }
+    },
+    "sword of beheading": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "emerald": 2,
+            "magical lump - ii": 2,
+            "blaze_rod": 1
+        }
+    },
+    "magical book cover": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "magical lump - ii": 4,
+            "book": 1
+        }
+    },
+    "magical glass": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - ii": 4,
+            "gold dust": 1,
+            "flask of knowledge": 3,
+            "glass_pane": 1
+        }
+    },
+    "basic circuit board": {
+        "obtained": 1,
+        "obtaining": "mob_drop",
+        "require": {
+            "iron golem": 1
+        }
+    },
+    "advanced circuit board": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lapis_block": 6,
+            "redstone_block": 2,
+            "basic circuit board": 1
+        }
+    },
+    "gold pan": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "stone": 5,
+            "bowl": 1
+        }
+    },
+    "nether gold pan": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "nether_brick": 5,
+            "gold pan": 1
+        }
+    },
+    "sifted ore": {
+        "obtained": 1,
+        "obtaining": "gold_pan",
+        "require": {
+            "gravel": 1
+        }
+    },
+    "makeshift smeltery": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "oak_fence": 1,
+            "bricks": 2,
+            "dispenser (facing up)": 1,
+            "flint_and_steel": 1
+        }
+    },
+    "smeltery": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "nether_brick_fence": 1,
+            "nether_bricks": 2,
+            "dispenser (facing up)": 1,
+            "flint_and_steel": 1
+        }
+    },
+    "automatic ignition chamber": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "iron_ingot": 4,
+            "flint_and_steel": 1,
+            "basic circuit board": 1,
+            "observer": 1
+        }
+    },
+    "pressure chamber": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "smooth_stone_slab": 2,
+            "dispenser (facing down)": 1,
+            "piston": 4,
+            "glass": 1,
+            "cauldron": 1
+        }
+    },
+    "battery": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "redstone": 1,
+            "zinc ingot": 2,
+            "sulfate": 2,
+            "copper ingot": 2
+        }
+    },
+    "glowstone helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "glowstone": 5
+        }
+    },
+    "glowstone chestplate": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "glowstone": 8
+        }
+    },
+    "glowstone leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "glowstone": 7
+        }
+    },
+    "glowstone boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "glowstone": 4
+        }
+    },
+    "damascus steel helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "damascus steel ingot": 5
+        }
+    },
+    "damascus steel chestplate": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "damascus steel ingot": 8
+        }
+    },
+    "damascus steel leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "damascus steel ingot": 7
+        }
+    },
+    "damascus steel boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "damascus steel ingot": 4
+        }
+    },
+    "reinforced helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "reinforced alloy ingot": 5
+        }
+    },
+    "reinforced chestplate": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "reinforced alloy ingot": 8
+        }
+    },
+    "reinforced leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "reinforced alloy ingot": 7
+        }
+    },
+    "reinforced boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "reinforced alloy ingot": 4
+        }
+    },
+    "cactus helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "cactus": 5
+        }
+    },
+    "cactus chestplate": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "cactus": 8
+        }
+    },
+    "cactus leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "cactus": 7
+        }
+    },
+    "cactus boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "cactus": 4
+        }
+    },
+    "reinforced alloy ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "damascus steel ingot": 1,
+            "hardened metal": 1,
+            "corinthian bronze ingot": 1,
+            "solder ingot": 1,
+            "billon ingot": 1,
+            "gold ingot (24-carat)": 1
+        }
+    },
+    "hardened metal": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "damascus steel ingot": 1,
+            "duralumin ingot": 1,
+            "compressed carbon": 1,
+            "aluminum bronze ingot": 1
+        }
+    },
+    "damascus steel ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "steel ingot": 1,
+            "iron dust": 1,
+            "carbon": 1,
+            "iron_ingot": 1
+        }
+    },
+    "steel ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "iron dust": 1,
+            "carbon": 1,
+            "iron_ingot": 1
+        }
+    },
+    "bronze ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "copper dust": 1,
+            "tin dust": 1,
+            "copper ingot": 1
+        }
+    },
+    "duralumin ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "aluminum dust": 1,
+            "copper dust": 1,
+            "aluminum ingot": 1
+        }
+    },
+    "billon ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "silver dust": 1,
+            "copper dust": 1,
+            "silver ingot": 1
+        }
+    },
+    "brass ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "copper dust": 1,
+            "zinc dust": 1,
+            "copper ingot": 1
+        }
+    },
+    "aluminum brass ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "aluminum dust": 1,
+            "brass ingot": 1,
+            "aluminum ingot": 1
+        }
+    },
+    "aluminum bronze ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "aluminum dust": 1,
+            "bronze ingot": 1,
+            "aluminum ingot": 1
+        }
+    },
+    "corinthian bronze ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "silver dust": 1,
+            "gold dust": 1,
+            "copper dust": 1,
+            "bronze ingot": 1
+        }
+    },
+    "solder ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "lead dust": 1,
+            "tin dust": 1,
+            "lead ingot": 1
+        }
+    },
+    "synthetic sapphire": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "aluminum dust": 1,
+            "glass": 1,
+            "glass_pane": 1,
+            "aluminum ingot": 1,
+            "lapis_lazuli": 1
+        }
+    },
+    "synthetic diamond": {
+        "obtained": 1,
+        "obtaining": "pressure_chamber",
+        "require": {
+            "carbon chunk": 1
+        }
+    },
+    "raw carbonado": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "synthetic diamond": 1,
+            "carbon chunk": 1,
+            "glass_pane": 1
+        }
+    },
+    "nickel ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "iron dust": 1,
+            "iron_ingot": 1,
+            "copper dust": 1
+        }
+    },
+    "cobalt ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "iron dust": 1,
+            "copper dust": 1,
+            "nickel ingot": 1
+        }
+    },
+    "carbonado": {
+        "obtained": 1,
+        "obtaining": "pressure_chamber",
+        "require": {
+            "raw carbonado": 1
+        }
+    },
+    "ferrosilicon": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "iron_ingot": 1,
+            "iron dust": 1,
+            "silicon": 1
+        }
+    },
+    "magnesium": {
+        "obtained": 1,
+        "obtaining": "ore_washer",
+        "require": {
+            "sifted ore": 1
+        }
+    },
+    "copper ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "copper dust": 1
+        }
+    },
+    "tin ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "tin dust": 1
+        }
+    },
+    "silver ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "silver dust": 1
+        }
+    },
+    "lead ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "lead dust": 1
+        }
+    },
+    "aluminum ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "aluminum dust": 1
+        }
+    },
+    "zinc ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "zinc dust": 1
+        }
+    },
+    "magnesium ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "magnesium": 1
+        }
+    },
+    "sulfate": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "netherrack": 16
+        }
+    },
+    "carbon": {
+        "obtained": 1,
+        "obtaining": "compressor",
+        "require": {
+            "coal": 8
+        }
+    },
+    "wheat flour": {
+        "obtained": 1,
+        "obtaining": "grind_stone",
+        "require": {
+            "wheat": 1
+        }
+    },
+    "steel plate": {
+        "obtained": 1,
+        "obtaining": "compressor",
+        "require": {
+            "steel ingot": 8
+        }
+    },
+    "compressed carbon": {
+        "obtained": 1,
+        "obtaining": "compressor",
+        "require": {
+            "carbon": 4
+        }
+    },
+    "carbon chunk": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "compressed carbon": 8,
+            "flint": 1
+        }
+    },
+    "steel thruster": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "redstone": 1,
+            "aluminum bronze ingot": 3,
+            "steel plate": 2,
+            "fire_charge": 1
+        }
+    },
+    "power crystal": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "redstone": 4,
+            "synthetic sapphire": 4,
+            "synthetic diamond": 1
+        }
+    },
+    "electric jetpack - i": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "duralumin ingot": 4,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "electric jetpack - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "solder ingot": 4,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "electric jetpack - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "billon ingot": 4,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "electric jetpack - iv": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 4,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "electric jetpack - v": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "damascus steel ingot": 4,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "electric jetpack - vi": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced alloy ingot": 4,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "medium energy capacitor": 1
+        }
+    },
+    "electric jetpack - vii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbon chunk": 2,
+            "carbonado": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "large energy capacitor": 1
+        }
+    },
+    "armored jetpack": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel plate": 4,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "medium energy capacitor": 1
+        }
+    },
+    "parachute": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cloth": 3,
+            "chain": 2
+        }
+    },
+    "hologram projector": {
+        "obtained": 3,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "power crystal": 1,
+            "aluminum brass ingot": 3,
+            "electric motor": 1
+        }
+    },
+    "chain": {
+        "obtained": 8,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 3
+        }
+    },
+    "hook": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 3
+        }
+    },
+    "grappling hook": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hook": 1,
+            "chain": 2
+        }
+    },
+    "magic workbench": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "bookshelf": 1,
+            "crafting_table": 1,
+            "dispenser": 1
+        }
+    },
+    "elemental staff": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical book cover": 2,
+            "magical lump - iii": 2,
+            "stick": 1
+        }
+    },
+    "elemental staff - wind": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "feather": 2,
+            "ender lump - iii": 1,
+            "elemental staff": 2
+        }
+    },
+    "elemental staff - water": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "lily_pad": 2,
+            "magical lump - ii": 1,
+            "elemental staff": 2
+        }
+    },
+    "elemental staff - fire": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "lava crystal": 1,
+            "elemental staff": 2
+        }
+    },
+    "multi tool - i": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "duralumin ingot": 5,
+            "small energy capacitor": 1
+        }
+    },
+    "multi tool - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "solder ingot": 5,
+            "small energy capacitor": 1
+        }
+    },
+    "multi tool - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "billon ingot": 5,
+            "small energy capacitor": 1
+        }
+    },
+    "multi tool - iv": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 5,
+            "small energy capacitor": 1
+        }
+    },
+    "multi tool - v": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "damascus steel ingot": 5,
+            "small energy capacitor": 1
+        }
+    },
+    "multi tool - vi": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced alloy ingot": 5,
+            "medium energy capacitor": 1
+        }
+    },
+    "multi tool - vii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado": 5,
+            "large energy capacitor": 1
+        }
+    },
+    "ore washer": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "dispenser": 1,
+            "oak_fence": 1,
+            "cauldron": 1
+        }
+    },
+    "gold ingot (24-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (22-carat)": 1
+        }
+    },
+    "gold ingot (22-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (20-carat)": 1
+        }
+    },
+    "gold ingot (20-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (18-carat)": 1
+        }
+    },
+    "gold ingot (18-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (16-carat)": 1
+        }
+    },
+    "gold ingot (16-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (14-carat)": 1
+        }
+    },
+    "gold ingot (14-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (12-carat)": 1
+        }
+    },
+    "gold ingot (12-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (10-carat)": 1
+        }
+    },
+    "gold ingot (10-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (8-carat)": 1
+        }
+    },
+    "gold ingot (8-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (6-carat)": 1
+        }
+    },
+    "gold ingot (6-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1,
+            "gold ingot (4-carat)": 1
+        }
+    },
+    "gold ingot (4-carat)": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold dust": 1
+        }
+    },
+    "stone chunk": {
+        "obtained": 1,
+        "obtaining": "ore_washer",
+        "require": {
+            "sifted ore": 1
+        }
+    },
+    "silicon": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "quartz_block": 1
+        }
+    },
+    "photovoltaic cell": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "glass": 3,
+            "silicon": 3,
+            "ferrosilicon": 3
+        }
+    },
+    "solar helmet": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced alloy ingot": 4,
+            "photovoltaic cell": 1,
+            "medium energy capacitor": 2
+        }
+    },
+    "lava crystal": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "magical lump - i": 4,
+            "blaze_powder": 4,
+            "ancient rune [fire]": 1
+        }
+    },
+    "elemental staff - storm": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "ancient rune [lightning]": 4,
+            "ender lump - iii": 2,
+            "elemental staff - water": 1,
+            "magic sugar": 1,
+            "elemental staff - wind": 1
+        }
+    },
+    "magical zombie pills": {
+        "obtained": 2,
+        "obtaining": "magic_workbench",
+        "require": {
+            "gold_ingot": 4,
+            "magical lump - ii": 2,
+            "apple": 2,
+            "potion": 1
+        }
+    },
+    "smelter's pickaxe": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lava crystal": 3,
+            "ferrosilicon": 2
+        }
+    },
+    "common talisman": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - ii": 4,
+            "gold ingot (8-carat)": 2,
+            "emerald": 1
+        }
+    },
+    "talisman of the anvil": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "anvil": 2,
+            "common talisman": 1
+        }
+    },
+    "ender talisman of the anvil": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the anvil": 1
+        }
+    },
+    "talisman of the miner": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "synthetic sapphire": 1,
+            "common talisman": 1,
+            "sifted ore": 1
+        }
+    },
+    "ender talisman of the miner": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the miner": 1
+        }
+    },
+    "talisman of the farmer": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "diamond_hoe": 2,
+            "common talisman": 1
+        }
+    },
+    "ender talisman of the farmer": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the farmer": 1
+        }
+    },
+    "talisman of the hunter": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "synthetic sapphire": 1,
+            "common talisman": 1,
+            "monster jerky": 1
+        }
+    },
+    "ender talisman of the hunter": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the hunter": 1
+        }
+    },
+    "talisman of the lava walker": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "lava crystal": 1,
+            "common talisman": 1,
+            "lava_bucket": 1
+        }
+    },
+    "ender talisman of the lava walker": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the lava walker": 1
+        }
+    },
+    "talisman of the water breather": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "water_bucket": 1,
+            "common talisman": 1,
+            "fishing_rod": 1
+        }
+    },
+    "ender talisman of the water breather": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the water breather": 1
+        }
+    },
+    "talisman of the angel": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "feather": 2,
+            "common talisman": 1
+        }
+    },
+    "ender talisman of the angel": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the angel": 1
+        }
+    },
+    "talisman of the firefighter": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "lava crystal": 2,
+            "common talisman": 1
+        }
+    },
+    "ender talisman of the firefighter": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the firefighter": 1
+        }
+    },
+    "talisman of the magician": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "enchanting_table": 2,
+            "common talisman": 1
+        }
+    },
+    "ender talisman of the magician": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the magician": 1
+        }
+    },
+    "talisman of the traveller": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "elemental staff - wind": 2,
+            "talisman of the angel": 1
+        }
+    },
+    "ender talisman of the traveller": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the traveller": 1
+        }
+    },
+    "talisman of the warrior": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "reinforced alloy ingot": 2,
+            "common talisman": 1
+        }
+    },
+    "ender talisman of the warrior": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the warrior": 1
+        }
+    },
+    "talisman of the knight": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "gilded iron": 2,
+            "talisman of the warrior": 1
+        }
+    },
+    "ender talisman of the knight": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the knight": 1
+        }
+    },
+    "talisman of the caveman": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "golden_pickaxe": 1,
+            "talisman of the miner": 1,
+            "ancient rune [earth]": 1
+        }
+    },
+    "ender talisman of the caveman": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the caveman": 1
+        }
+    },
+    "talisman of the wise": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "magical glass": 2,
+            "flask of knowledge": 2,
+            "talisman of the magician": 1
+        }
+    },
+    "ender talisman of the wise": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the wise": 1
+        }
+    },
+    "gilded iron": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "gold ingot (24-carat)": 1,
+            "iron dust": 1
+        }
+    },
+    "synthetic emerald": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "synthetic sapphire": 1,
+            "aluminum dust": 1,
+            "aluminum ingot": 1,
+            "glass_pane": 1
+        }
+    },
+    "chainmail helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "chain": 5
+        }
+    },
+    "chainmail chestplate": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "chain": 8
+        }
+    },
+    "chainmail leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "chain": 7
+        }
+    },
+    "chainmail boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "chain": 4
+        }
+    },
+    "talisman of the whirlwind": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "elemental staff - wind": 2,
+            "talisman of the traveller": 1
+        }
+    },
+    "ender talisman of the whirlwind": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the whirlwind": 1
+        }
+    },
+    "talisman of the wizard": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "magic eye of ender": 2,
+            "talisman of the magician": 1
+        }
+    },
+    "ender talisman of the wizard": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "talisman of the wizard": 1
+        }
+    },
+    "lumber axe": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "synthetic diamond": 2,
+            "synthetic emerald": 1,
+            "gilded iron": 2
+        }
+    },
+    "salt": {
+        "obtained": 1,
+        "obtaining": "ore_washer",
+        "require": {
+            "sand": 2
+        }
+    },
+    "heavy cream": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "milk_bucket": 1
+        }
+    },
+    "cheese": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "milk_bucket": 1,
+            "salt": 1
+        }
+    },
+    "butter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "heavy cream": 1,
+            "salt": 1
+        }
+    },
+    "gilded iron helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gilded iron": 5
+        }
+    },
+    "gilded iron chestplate": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gilded iron": 8
+        }
+    },
+    "gilded iron leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gilded iron": 7
+        }
+    },
+    "gilded iron boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gilded iron": 4
+        }
+    },
+    "reinforced cloth": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cloth": 4,
+            "lead ingot": 1
+        }
+    },
+    "scuba helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "orange_wool": 2,
+            "reinforced cloth": 3,
+            "glass_pane": 1
+        }
+    },
+    "hazmat suit": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "orange_wool": 2,
+            "reinforced cloth": 4,
+            "black_wool": 2
+        }
+    },
+    "hazmat suit leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "black_wool": 2,
+            "reinforced cloth": 5
+        }
+    },
+    "hazmat boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "reinforced cloth": 4,
+            "black_wool": 2
+        }
+    },
+    "crushed ore": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "sifted ore": 1
+        }
+    },
+    "pulverized ore": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "crushed ore": 1
+        }
+    },
+    "pure ore cluster": {
+        "obtained": 1,
+        "obtaining": "ore_washer",
+        "require": {
+            "pulverized ore": 1
+        }
+    },
+    "tiny pile of uranium": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "pure ore cluster": 1
+        }
+    },
+    "small chunk of uranium": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "tiny pile of uranium": 9
+        }
+    },
+    "uranium": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "small chunk of uranium": 4
+        }
+    },
+    "redstone alloy ingot": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "redstone": 1,
+            "redstone_block": 1,
+            "ferrosilicon": 1,
+            "hardened metal": 1
+        }
+    },
+    "golden helmet (12-carat)": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gold ingot (12-carat)": 5
+        }
+    },
+    "golden chestplate (12-carat)": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gold ingot (12-carat)": 8
+        }
+    },
+    "golden leggings (12-carat)": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gold ingot (12-carat)": 7
+        }
+    },
+    "golden boots (12-carat)": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gold ingot (12-carat)": 4
+        }
+    },
+    "cloth": {
+        "obtained": 8,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "white_wool": 1
+        }
+    },
+    "rag": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cloth": 6,
+            "string": 2
+        }
+    },
+    "bandage": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "rag": 2,
+            "string": 1
+        }
+    },
+    "splint": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "iron_ingot": 2,
+            "stick": 3
+        }
+    },
+    "tin can": {
+        "obtained": 8,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "tin ingot": 8
+        }
+    },
+    "vitamins": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "tin can": 1,
+            "apple": 1,
+            "red_mushroom": 1,
+            "sugar": 1
+        }
+    },
+    "medicine": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "vitamins": 1,
+            "glass_bottle": 1,
+            "heavy cream": 1
+        }
+    },
+    "night vision goggles": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "coal_block": 6,
+            "lime_stained_glass_pane": 2
+        }
+    },
+    "pickaxe of containment": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ferrosilicon": 3,
+            "gilded iron": 2
+        }
+    },
+    "table saw": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "smooth_stone_slab": 2,
+            "stonecutter": 1,
+            "iron_block": 1
+        }
+    },
+    "blade of vampires": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "wither_skeleton_skull": 2,
+            "blaze_rod": 1
+        }
+    },
+    "gold block (24-carat)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold ingot (24-carat)": 9
+        }
+    },
+    "composter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "oak_slab": 6,
+            "cauldron": 1
+        }
+    },
+    "farmer shoes": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "hay_block": 4
+        }
+    },
+    "explosive pickaxe": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "tnt": 2,
+            "synthetic diamond": 1,
+            "ferrosilicon": 2
+        }
+    },
+    "explosive shovel": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "synthetic diamond": 1,
+            "tnt": 1,
+            "ferrosilicon": 1
+        }
+    },
+    "automated panning machine": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "oak_trapdoor": 1,
+            "cauldron": 1
+        }
+    },
+    "boots of the stomper": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "yellow_wool": 2,
+            "piston": 2
+        }
+    },
+    "pickaxe of the seeker": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "compass": 2,
+            "synthetic diamond": 1,
+            "ferrosilicon": 2
+        }
+    },
+    "small backpack": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "leather": 5,
+            "gold ingot (6-carat)": 2,
+            "chest": 1
+        }
+    },
+    "backpack": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "leather": 5,
+            "gold ingot (10-carat)": 2,
+            "small backpack": 1
+        }
+    },
+    "large backpack": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "leather": 5,
+            "gold ingot (14-carat)": 2,
+            "backpack": 1
+        }
+    },
+    "woven backpack": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cloth": 5,
+            "gold ingot (16-carat)": 2,
+            "large backpack": 1
+        }
+    },
+    "crucible": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "terracotta": 6,
+            "flint_and_steel": 1
+        }
+    },
+    "gilded backpack": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold ingot (22-carat)": 4,
+            "leather": 2,
+            "woven backpack": 1
+        }
+    },
+    "radiant backpack": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold ingot (24-carat)": 4,
+            "leather": 2,
+            "gilded backpack": 1
+        }
+    },
+    "restored backpack": {
+        "obtained": 1,
+        "obtaining": "null",
+        "require": {}
+    },
+    "magnet": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "nickel ingot": 1,
+            "aluminum dust": 1,
+            "iron dust": 1,
+            "cobalt ingot": 1
+        }
+    },
+    "infused magnet": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "ender lump - ii": 2,
+            "magnet": 1
+        }
+    },
+    "cobalt pickaxe": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cobalt ingot": 3,
+            "nickel ingot": 2
+        }
+    },
+    "necrotic skull": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "magical lump - iii": 4,
+            "wither_skeleton_skull": 1
+        }
+    },
+    "essence of afterlife": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "ender lump - iii": 4,
+            "ancient rune [air]": 1,
+            "ancient rune [earth]": 1,
+            "necrotic skull": 1,
+            "ancient rune [fire]": 1,
+            "ancient rune [water]": 1
+        }
+    },
+    "synthetic shulker shell": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "ender lump - iii": 4,
+            "ancient rune [ender]": 2,
+            "reinforced plate": 2,
+            "turtle_helmet": 1
+        }
+    },
+    "soulbound backpack": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - ii": 4,
+            "essence of afterlife": 2,
+            "woven backpack": 1
+        }
+    },
+    "jet boots - i": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "duralumin ingot": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "jet boots - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "solder ingot": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "jet boots - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "billon ingot": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "jet boots - iv": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "jet boots - v": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "damascus steel ingot": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "jet boots - vi": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced alloy ingot": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "medium energy capacitor": 1
+        }
+    },
+    "jet boots - vii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "large energy capacitor": 1
+        }
+    },
+    "armored jet boots": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel plate": 2,
+            "power crystal": 1,
+            "steel thruster": 2,
+            "medium energy capacitor": 1
+        }
+    },
+    "seismic axe": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "hardened metal": 3,
+            "elemental staff": 2
+        }
+    },
+    "pickaxe of vein mining": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "emerald_ore": 2,
+            "synthetic diamond": 1,
+            "gilded iron": 2
+        }
+    },
+    "climbing pick": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 2,
+            "hardened metal": 1,
+            "stick": 2
+        }
+    },
+    "soulbound sword": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_sword": 1
+        }
+    },
+    "soulbound trident": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "trident": 1
+        }
+    },
+    "soulbound bow": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "bow": 1
+        }
+    },
+    "soulbound pickaxe": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_pickaxe": 1
+        }
+    },
+    "soulbound axe": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_axe": 1
+        }
+    },
+    "soulbound shovel": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_shovel": 1
+        }
+    },
+    "soulbound hoe": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_hoe": 1
+        }
+    },
+    "soulbound helmet": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_helmet": 1
+        }
+    },
+    "soulbound chestplate": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_chestplate": 1
+        }
+    },
+    "soulbound leggings": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_leggings": 1
+        }
+    },
+    "soulbound boots": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "essence of afterlife": 2,
+            "diamond_boots": 1
+        }
+    },
+    "juicer": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "glass": 1,
+            "nether_brick_fence": 1,
+            "dispenser (facing up)": 1
+        }
+    },
+    "apple juice": {
+        "obtained": 1,
+        "obtaining": "juicer",
+        "require": {
+            "apple": 1
+        }
+    },
+    "carrot juice": {
+        "obtained": 1,
+        "obtaining": "juicer",
+        "require": {
+            "carrot": 1
+        }
+    },
+    "melon juice": {
+        "obtained": 1,
+        "obtaining": "juicer",
+        "require": {
+            "melon_slice": 1
+        }
+    },
+    "pumpkin juice": {
+        "obtained": 1,
+        "obtaining": "juicer",
+        "require": {
+            "pumpkin": 1
+        }
+    },
+    "sweet berry juice": {
+        "obtained": 1,
+        "obtaining": "juicer",
+        "require": {
+            "sweet_berries": 1
+        }
+    },
+    "golden apple juice": {
+        "obtained": 1,
+        "obtaining": "juicer",
+        "require": {
+            "golden_apple": 1
+        }
+    },
+    "broken spawner": {
+        "obtained": 1,
+        "obtaining": "pickaxe_of_containment",
+        "require": {
+            "spawner": 1
+        }
+    },
+    "reinforced spawner": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "ancient rune [ender]": 2,
+            "flask of knowledge": 4,
+            "essence of afterlife": 2,
+            "broken spawner": 1
+        }
+    },
+    "enhanced furnace - i": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "furnace": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - i": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - ii": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - iv": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - iii": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - v": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - iv": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - vi": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - v": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - vii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - vi": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - viii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - vii": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - ix": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - viii": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - x": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - ix": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "enhanced furnace - xi": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 1,
+            "basic circuit board": 1,
+            "enhanced furnace - x": 1,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "reinforced furnace": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced alloy ingot": 4,
+            "basic circuit board": 1,
+            "heating coil": 2,
+            "enhanced furnace - xi": 1,
+            "electric motor": 1
+        }
+    },
+    "carbonado edged furnace": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado": 4,
+            "basic circuit board": 1,
+            "heating coil": 2,
+            "reinforced furnace": 1,
+            "electric motor": 1
+        }
+    },
+    "electromagnet": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "nickel ingot": 1,
+            "magnet": 1,
+            "cobalt ingot": 1,
+            "battery": 1
+        }
+    },
+    "electric motor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "copper wire": 6,
+            "electromagnet": 1
+        }
+    },
+    "heating coil": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "copper wire": 8,
+            "electric motor": 1
+        }
+    },
+    "copper wire": {
+        "obtained": 8,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "copper ingot": 3
+        }
+    },
+    "block placer": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold ingot (4-carat)": 4,
+            "piston": 2,
+            "iron_ingot": 2,
+            "electric motor": 1
+        }
+    },
+    "scroll of dimensional teleposition": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "ender lump - iii": 4,
+            "magic eye of ender": 2,
+            "magical book cover": 1
+        }
+    },
+    "explosive bow": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "stick": 2,
+            "gunpowder": 2,
+            "elemental staff - fire": 1,
+            "sulfate": 1
+        }
+    },
+    "icy bow": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "stick": 2,
+            "ice": 2,
+            "elemental staff - water": 1,
+            "packed_ice": 1
+        }
+    },
+    "tome of knowledge sharing": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "feather": 1,
+            "ink_sac": 1,
+            "magical book cover": 1,
+            "glass_bottle": 1,
+            "writable_book": 1
+        }
+    },
+    "birthday cake": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "torch": 1,
+            "sugar": 2,
+            "cake": 1
+        }
+    },
+    "glass of milk": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "milk_bucket": 1,
+            "glass_bottle": 1
+        }
+    },
+    "chocolate milk": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "glass of milk": 1,
+            "cocoa_beans": 1
+        }
+    },
+    "egg nog": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "glass of milk": 1,
+            "egg": 1
+        }
+    },
+    "apple cider": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "apple juice": 1,
+            "sugar": 1
+        }
+    },
+    "christmas cookie": {
+        "obtained": 16,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cookie": 1,
+            "sugar": 1,
+            "lime_dye": 1
+        }
+    },
+    "fruit cake": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "egg": 1,
+            "apple": 1,
+            "melon": 1,
+            "sugar": 1
+        }
+    },
+    "apple pie": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "sugar": 1,
+            "apple": 1,
+            "egg": 1
+        }
+    },
+    "hot chocolate": {
+        "obtained": 1,
+        "obtaining": "smeltery",
+        "require": {
+            "chocolate milk": 1
+        }
+    },
+    "christmas cake": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "egg": 1,
+            "sugar": 1,
+            "wheat flour": 1,
+            "milk_bucket": 1
+        }
+    },
+    "caramel": {
+        "obtained": 4,
+        "obtaining": "smeltery",
+        "require": {
+            "sugar": 2
+        }
+    },
+    "caramel apple": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "caramel": 1,
+            "apple": 1,
+            "stick": 1
+        }
+    },
+    "chocolate apple": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cocoa_beans": 1,
+            "apple": 1,
+            "stick": 1
+        }
+    },
+    "christmas present": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "name_tag": 1,
+            "red_wool": 4,
+            "green_wool": 2
+        }
+    },
+    "carrot pie": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "sugar": 1,
+            "carrot": 1,
+            "egg": 1
+        }
+    },
+    "easter egg": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lime_dye": 1,
+            "egg": 1,
+            "purple_dye": 1
+        }
+    },
+    "reinforced plate": {
+        "obtained": 1,
+        "obtaining": "compressor",
+        "require": {
+            "reinforced alloy ingot": 8
+        }
+    },
+    "hardened glass": {
+        "obtained": 16,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "glass": 8,
+            "reinforced plate": 1
+        }
+    },
+    "cooling unit": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "ice": 6,
+            "aluminum ingot": 2,
+            "electric motor": 1
+        }
+    },
+    "cooler": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cloth": 3,
+            "aluminum ingot": 5,
+            "cooling unit": 1
+        }
+    },
+    "wither-proof obsidian": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lead ingot": 4,
+            "obsidian": 4,
+            "hardened glass": 1
+        }
+    },
+    "ancient pedestal": {
+        "obtained": 4,
+        "obtaining": "magic_workbench",
+        "require": {
+            "obsidian": 4,
+            "gold ingot (8-carat)": 2,
+            "stone": 1
+        }
+    },
+    "ancient altar": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "enchanting_table": 1,
+            "magical lump - iii": 2,
+            "gold ingot (8-carat)": 2,
+            "obsidian": 2
+        }
+    },
+    "energy regulator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "silver ingot": 4,
+            "damascus steel ingot": 4,
+            "electric motor": 1
+        }
+    },
+    "energy connector": {
+        "obtained": 8,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbon": 4,
+            "copper wire": 4,
+            "redstone_block": 1
+        }
+    },
+    "duct tape": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "aluminum dust": 3,
+            "slime_ball": 2,
+            "white_wool": 1,
+            "paper": 3
+        }
+    },
+    "small energy capacitor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "duralumin ingot": 4,
+            "sulfate": 1,
+            "redstone alloy ingot": 2,
+            "energy connector": 1,
+            "redstone": 1
+        }
+    },
+    "medium energy capacitor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "billon ingot": 4,
+            "redstone alloy ingot": 2,
+            "redstone": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "big energy capacitor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 4,
+            "redstone alloy ingot": 2,
+            "redstone": 2,
+            "medium energy capacitor": 1
+        }
+    },
+    "large energy capacitor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced alloy ingot": 4,
+            "redstone alloy ingot": 2,
+            "redstone": 2,
+            "big energy capacitor": 1
+        }
+    },
+    "carbonado edged energy capacitor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado": 4,
+            "redstone alloy ingot": 2,
+            "redstone": 2,
+            "large energy capacitor": 1
+        }
+    },
+    "energized energy capacitor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado": 4,
+            "redstone alloy ingot": 2,
+            "nether_star": 2,
+            "carbonado edged energy capacitor": 1
+        }
+    },
+    "solar generator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "photovoltaic cell": 3,
+            "aluminum ingot": 3,
+            "electric motor": 1
+        }
+    },
+    "advanced solar generator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "solar generator": 4,
+            "aluminum ingot": 4,
+            "redstone": 1
+        }
+    },
+    "carbonado solar generator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "advanced solar generator": 4,
+            "aluminum ingot": 4,
+            "carbonado": 1
+        }
+    },
+    "energized solar generator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado solar generator": 4,
+            "blistering ingot": 4,
+            "electromagnet": 1
+        }
+    },
+    "charging bench": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electromagnet": 1,
+            "battery": 2,
+            "crafting_table": 1,
+            "small energy capacitor": 1
+        }
+    },
+    "electric furnace": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "furnace": 1,
+            "gilded iron": 4,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "electric furnace - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electric motor": 1,
+            "gilded iron": 4,
+            "electric furnace": 1,
+            "heating coil": 1
+        }
+    },
+    "electric furnace - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electric motor": 1,
+            "steel ingot": 2,
+            "electric furnace - ii": 1,
+            "gilded iron": 2,
+            "heating coil": 1
+        }
+    },
+    "electric gold pan": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold pan": 1,
+            "flint": 2,
+            "electric motor": 1,
+            "aluminum ingot": 3
+        }
+    },
+    "electric gold pan (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold pan": 1,
+            "iron_ingot": 2,
+            "electric gold pan": 1,
+            "duralumin ingot": 3
+        }
+    },
+    "electric gold pan (iii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold pan": 1,
+            "electric motor": 2,
+            "electric gold pan (ii)": 1,
+            "cobalt ingot": 2,
+            "blistering ingot": 1
+        }
+    },
+    "electric ingot factory": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "flint_and_steel": 1,
+            "heating coil": 2,
+            "electric dust washer": 1,
+            "damascus steel ingot": 2,
+            "electric motor": 1
+        }
+    },
+    "electric ingot factory (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gilded iron": 2,
+            "flint_and_steel": 1,
+            "heating coil": 2,
+            "electric ingot factory": 1,
+            "brass ingot": 2,
+            "electric motor": 1
+        }
+    },
+    "electric ingot factory (iii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gilded iron": 2,
+            "flint_and_steel": 1,
+            "heating coil": 2,
+            "electric ingot factory (ii)": 1,
+            "brass ingot": 2,
+            "blistering ingot": 1
+        }
+    },
+    "electrified crucible": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lead ingot": 4,
+            "crucible": 1,
+            "damascus steel ingot": 2,
+            "heating coil": 1,
+            "large energy capacitor": 1
+        }
+    },
+    "electrified crucible - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "corinthian bronze ingot": 2,
+            "electrified crucible": 1,
+            "damascus steel ingot": 2,
+            "electric motor": 1,
+            "lead ingot": 2,
+            "heating coil": 1
+        }
+    },
+    "electrified crucible - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "corinthian bronze ingot": 2,
+            "electrified crucible - ii": 1,
+            "steel plate": 2,
+            "power crystal": 1,
+            "lead ingot": 3
+        }
+    },
+    "electric ore grinder": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "diamond_pickaxe": 1,
+            "gilded iron": 4,
+            "heating coil": 1,
+            "electric motor": 1
+        }
+    },
+    "electric ore grinder (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "diamond_pickaxe": 1,
+            "heating coil": 2,
+            "electric ore grinder": 1,
+            "gilded iron": 2,
+            "blistering ingot": 1
+        }
+    },
+    "electric ore grinder (iii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced plate": 4,
+            "heating coil": 1,
+            "electric ore grinder (ii)": 1,
+            "blistering ingot": 1
+        }
+    },
+    "heated pressure chamber": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lead ingot": 6,
+            "electric motor": 1,
+            "glass": 1,
+            "heating coil": 1
+        }
+    },
+    "heated pressure chamber - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lead ingot": 4,
+            "electric motor": 1,
+            "heated pressure chamber": 1,
+            "reinforced alloy ingot": 2,
+            "heating coil": 1
+        }
+    },
+    "electric ingot pulverizer": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electric ore grinder": 1,
+            "lead ingot": 4,
+            "medium energy capacitor": 1,
+            "heating coil": 1
+        }
+    },
+    "coal generator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "heating coil": 2,
+            "furnace": 1,
+            "nickel ingot": 3,
+            "electric motor": 1
+        }
+    },
+    "coal generator (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "magma_block": 2,
+            "heating coil": 1,
+            "hardened metal": 2,
+            "coal generator": 1,
+            "electric motor": 1
+        }
+    },
+    "bio reactor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "heating coil": 2,
+            "composter": 1,
+            "aluminum brass ingot": 3,
+            "electric motor": 1
+        }
+    },
+    "auto drier": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "heating coil": 2,
+            "smoker": 1,
+            "campfire": 1
+        }
+    },
+    "auto brewer": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "heating coil": 1,
+            "reinforced plate": 2,
+            "brewing_stand": 1,
+            "electric motor": 1
+        }
+    },
+    "electric press": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "piston": 2,
+            "electric motor": 1,
+            "medium energy capacitor": 1,
+            "damascus steel ingot": 3
+        }
+    },
+    "electric press - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "sticky_piston": 2,
+            "electric press": 1,
+            "damascus steel ingot": 5,
+            "big energy capacitor": 1
+        }
+    },
+    "magnesium salt": {
+        "obtained": 1,
+        "obtaining": "heated_pressure_chamber",
+        "require": {
+            "magnesium": 1,
+            "salt": 1
+        }
+    },
+    "magnesium-powered generator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electric motor": 1,
+            "compressed carbon": 2,
+            "water_bucket": 1,
+            "duralumin ingot": 3
+        }
+    },
+    "auto enchanter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "enchanting_table": 1,
+            "carbonado": 2,
+            "electric motor": 1,
+            "wither-proof obsidian": 3
+        }
+    },
+    "auto enchanter - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced plate": 2,
+            "big energy capacitor": 1,
+            "blistering ingot": 2,
+            "auto enchanter": 1,
+            "wither-proof obsidian": 2,
+            "synthetic diamond": 1
+        }
+    },
+    "auto disenchanter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "redstone": 2,
+            "anvil": 1,
+            "carbonado": 2,
+            "auto enchanter": 1,
+            "wither-proof obsidian": 3
+        }
+    },
+    "auto disenchanter - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced plate": 2,
+            "anvil": 1,
+            "blistering ingot": 2,
+            "auto disenchanter": 1,
+            "wither-proof obsidian": 2,
+            "big energy capacitor": 1
+        }
+    },
+    "auto anvil": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "anvil": 1,
+            "reinforced alloy ingot": 2,
+            "electric motor": 1,
+            "iron_block": 3
+        }
+    },
+    "auto anvil mk.ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "auto anvil": 1,
+            "steel plate": 2,
+            "heating coil": 1,
+            "iron_block": 3
+        }
+    },
+    "book binder": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "enchanting_table": 1,
+            "bookshelf": 2,
+            "hardened metal": 1,
+            "synthetic sapphire": 2,
+            "small energy capacitor": 1
+        }
+    },
+    "multimeter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "copper ingot": 2,
+            "redstone alloy ingot": 1,
+            "gold ingot (6-carat)": 1
+        }
+    },
+    "plastic sheet": {
+        "obtained": 8,
+        "obtaining": "heated_pressure_chamber",
+        "require": {
+            "bucket of oil": 1
+        }
+    },
+    "android memory core": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "brass ingot": 4,
+            "orange_stained_glass": 2,
+            "power crystal": 2,
+            "tin dust": 1
+        }
+    },
+    "gps transmitter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electromagnet": 1,
+            "steel ingot": 4,
+            "advanced circuit board": 1,
+            "electric motor": 1
+        }
+    },
+    "advanced gps transmitter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gps transmitter": 4,
+            "bronze ingot": 4,
+            "carbon": 1
+        }
+    },
+    "carbonado gps transmitter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "advanced gps transmitter": 4,
+            "corinthian bronze ingot": 4,
+            "carbonado": 1
+        }
+    },
+    "energized gps transmitter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado gps transmitter": 4,
+            "blistering ingot": 2,
+            "nickel ingot": 2,
+            "carbonado": 1
+        }
+    },
+    "gps control panel": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electromagnet": 1,
+            "cobalt ingot": 2,
+            "advanced circuit board": 1,
+            "aluminum brass ingot": 3
+        }
+    },
+    "gps marker tool": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electromagnet": 1,
+            "lapis_lazuli": 2,
+            "basic circuit board": 1,
+            "redstone": 2,
+            "redstone alloy ingot": 1
+        }
+    },
+    "gps emergency transmitter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electromagnet": 1,
+            "gps transmitter": 1,
+            "essence of afterlife": 1
+        }
+    },
+    "android interface (items)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "plastic sheet": 4,
+            "steel ingot": 3,
+            "basic circuit board": 1,
+            "blue_stained_glass": 1
+        }
+    },
+    "android interface (fuel)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "plastic sheet": 4,
+            "steel ingot": 3,
+            "red_stained_glass": 1,
+            "basic circuit board": 1
+        }
+    },
+    "programmable android (normal)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "plastic sheet": 5,
+            "android memory core": 1,
+            "coal generator": 1,
+            "electric motor": 1,
+            "chest": 1
+        }
+    },
+    "programmable android (miner)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "diamond_pickaxe": 2,
+            "programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "programmable android (farmer)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "diamond_hoe": 2,
+            "programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "programmable android (woodcutter)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "diamond_axe": 2,
+            "programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "programmable android (fisherman)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "fishing_rod": 2,
+            "programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "programmable android (butcher)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gps transmitter": 1,
+            "diamond_sword": 2,
+            "programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "advanced programmable android (normal)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "plastic sheet": 4,
+            "android memory core": 1,
+            "combustion reactor": 1,
+            "programmable android (normal)": 1,
+            "chest": 1,
+            "power crystal": 1
+        }
+    },
+    "advanced programmable android (fisherman)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "fishing_rod": 2,
+            "advanced programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "advanced programmable android (butcher)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gps transmitter": 1,
+            "diamond_sword": 2,
+            "advanced programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "advanced programmable android (farmer)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gps transmitter": 1,
+            "diamond_hoe": 2,
+            "advanced programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "empowered programmable android (normal)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "plastic sheet": 2,
+            "android memory core": 1,
+            "nuclear reactor": 1,
+            "advanced programmable android (normal)": 1,
+            "chest": 1,
+            "blistering ingot": 2,
+            "power crystal": 1
+        }
+    },
+    "empowered programmable android (fisherman)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "fishing_rod": 2,
+            "empowered programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "empowered programmable android (butcher)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado gps transmitter": 1,
+            "diamond_sword": 2,
+            "empowered programmable android (normal)": 1,
+            "electric motor": 1
+        }
+    },
+    "blank rune": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "stone": 4,
+            "magical lump - i": 4,
+            "obsidian": 1
+        }
+    },
+    "ancient rune [air]": {
+        "obtained": 4,
+        "obtaining": "ancient_altar",
+        "require": {
+            "feather": 4,
+            "magical lump - i": 2,
+            "ghast_tear": 2,
+            "blank rune": 1
+        }
+    },
+    "ancient rune [earth]": {
+        "obtained": 4,
+        "obtaining": "ancient_altar",
+        "require": {
+            "dirt": 2,
+            "magical lump - i": 2,
+            "stone": 2,
+            "obsidian": 2,
+            "blank rune": 1
+        }
+    },
+    "ancient rune [fire]": {
+        "obtained": 4,
+        "obtaining": "ancient_altar",
+        "require": {
+            "fire_charge": 4,
+            "magical lump - ii": 2,
+            "blaze_powder": 1,
+            "ancient rune [earth]": 1,
+            "flint_and_steel": 1
+        }
+    },
+    "ancient rune [water]": {
+        "obtained": 4,
+        "obtaining": "ancient_altar",
+        "require": {
+            "salmon": 1,
+            "magical lump - ii": 2,
+            "water_bucket": 2,
+            "sand": 2,
+            "blank rune": 1,
+            "cod": 1
+        }
+    },
+    "ancient rune [ender]": {
+        "obtained": 6,
+        "obtaining": "ancient_altar",
+        "require": {
+            "ender_pearl": 4,
+            "ender lump - iii": 2,
+            "ender_eye": 2,
+            "blank rune": 1
+        }
+    },
+    "ancient rune [lightning]": {
+        "obtained": 4,
+        "obtaining": "ancient_altar",
+        "require": {
+            "iron_ingot": 4,
+            "magical lump - iii": 2,
+            "ancient rune [air]": 1,
+            "phantom_membrane": 1,
+            "ancient rune [water]": 1
+        }
+    },
+    "ancient rune [rainbow]": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 1,
+            "magical lump - iii": 1,
+            "cyan_dye": 1,
+            "white_wool": 2,
+            "ancient rune [ender]": 1,
+            "yellow_dye": 1,
+            "ender lump - iii": 1,
+            "magenta_dye": 1
+        }
+    },
+    "ancient rune [soulbound]": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "magical lump - iii": 4,
+            "essence of afterlife": 2,
+            "ender lump - iii": 2,
+            "ancient rune [ender]": 1
+        }
+    },
+    "ancient rune [enchantment]": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "magical lump - iii": 4,
+            "magical glass": 4,
+            "ancient rune [lightning]": 1
+        }
+    },
+    "infernal bonemeal": {
+        "obtained": 8,
+        "obtaining": "ancient_altar",
+        "require": {
+            "nether_wart": 4,
+            "ancient rune [earth]": 1,
+            "magical lump - ii": 2,
+            "bone_meal": 1,
+            "blaze_powder": 1
+        }
+    },
+    "elytra scale": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "ender lump - iii": 4,
+            "ancient rune [air]": 2,
+            "phantom_membrane": 2,
+            "feather": 1
+        }
+    },
+    "elytra": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "elytra scale": 4,
+            "ancient rune [air]": 4,
+            "leather_chestplate": 1
+        }
+    },
+    "infused elytra": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "flask of knowledge": 6,
+            "elytra scale": 2,
+            "elytra": 1
+        }
+    },
+    "soulbound elytra": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "flask of knowledge": 4,
+            "essence of afterlife": 2,
+            "elytra scale": 2,
+            "elytra": 1
+        }
+    },
+    "trident": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "nautilus_shell": 2,
+            "reinforced alloy ingot": 1,
+            "elemental staff - water": 2,
+            "diamond_sword": 1,
+            "magical lump - iii": 2,
+            "nether_star": 1
+        }
+    },
+    "totem of undying": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "essence of afterlife": 4,
+            "emerald_block": 2,
+            "magical lump - iii": 2,
+            "common talisman": 1
+        }
+    },
+    "rainbow wool": {
+        "obtained": 8,
+        "obtaining": "ancient_altar",
+        "require": {
+            "white_wool": 8,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glass": {
+        "obtained": 8,
+        "obtaining": "ancient_altar",
+        "require": {
+            "white_stained_glass": 8,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glass pane": {
+        "obtained": 8,
+        "obtaining": "ancient_altar",
+        "require": {
+            "white_stained_glass_pane": 8,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow clay": {
+        "obtained": 8,
+        "obtaining": "ancient_altar",
+        "require": {
+            "white_terracotta": 8,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow concrete": {
+        "obtained": 8,
+        "obtaining": "ancient_altar",
+        "require": {
+            "white_concrete": 8,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glazed terracotta": {
+        "obtained": 8,
+        "obtaining": "ancient_altar",
+        "require": {
+            "white_glazed_terracotta": 8,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow wool (christmas)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "christmas cookie": 2,
+            "green_dye": 2,
+            "white_wool": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glass (christmas)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "christmas cookie": 2,
+            "green_dye": 2,
+            "white_stained_glass": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glass pane (christmas)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "christmas cookie": 2,
+            "green_dye": 2,
+            "white_stained_glass_pane": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow clay (christmas)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "christmas cookie": 2,
+            "green_dye": 2,
+            "white_terracotta": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow concrete (christmas)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "christmas cookie": 2,
+            "green_dye": 2,
+            "white_concrete": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glazed terracotta (christmas)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "christmas cookie": 2,
+            "green_dye": 2,
+            "white_glazed_terracotta": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow wool (valentine's day)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "poppy": 2,
+            "pink_dye": 2,
+            "white_wool": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glass (valentine's day)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "poppy": 2,
+            "pink_dye": 2,
+            "white_stained_glass": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glass pane (valentine's day)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "poppy": 2,
+            "pink_dye": 2,
+            "white_stained_glass_pane": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow clay (valentine's day)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "poppy": 2,
+            "pink_dye": 2,
+            "white_terracotta": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow concrete (valentine's day)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "poppy": 2,
+            "pink_dye": 2,
+            "white_concrete": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glazed terracotta (valentine's day)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "red_dye": 2,
+            "poppy": 2,
+            "pink_dye": 2,
+            "white_glazed_terracotta": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow wool (halloween)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "orange_dye": 2,
+            "pumpkin": 2,
+            "black_dye": 2,
+            "white_wool": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glass (halloween)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "orange_dye": 2,
+            "pumpkin": 2,
+            "black_dye": 2,
+            "white_stained_glass": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glass pane (halloween)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "orange_dye": 2,
+            "pumpkin": 2,
+            "black_dye": 2,
+            "white_stained_glass_pane": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow clay (halloween)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "orange_dye": 2,
+            "pumpkin": 2,
+            "black_dye": 2,
+            "white_terracotta": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow concrete (halloween)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "orange_dye": 2,
+            "pumpkin": 2,
+            "black_dye": 2,
+            "white_concrete": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "rainbow glazed terracotta (halloween)": {
+        "obtained": 2,
+        "obtaining": "ancient_altar",
+        "require": {
+            "orange_dye": 2,
+            "pumpkin": 2,
+            "black_dye": 2,
+            "white_glazed_terracotta": 2,
+            "ancient rune [rainbow]": 1
+        }
+    },
+    "wither-proof glass": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lead ingot": 4,
+            "wither-proof obsidian": 4,
+            "hardened glass": 1
+        }
+    },
+    "gps geo-scanner": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electromagnet": 3,
+            "steel ingot": 2,
+            "electric motor": 1
+        }
+    },
+    "portable geo-scanner": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electromagnet": 2,
+            "compass": 1,
+            "steel ingot": 2,
+            "gps marker tool": 1,
+            "solder ingot": 2,
+            "electric motor": 1
+        }
+    },
+    "oil pump": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 4,
+            "medium energy capacitor": 1,
+            "electric motor": 1,
+            "bucket": 1
+        }
+    },
+    "geo miner": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "diamond_pickaxe": 2,
+            "medium energy capacitor": 1,
+            "reinforced alloy ingot": 2,
+            "oil pump": 1,
+            "electric motor": 1
+        }
+    },
+    "bucket of oil": {
+        "obtained": 1,
+        "obtaining": "oil_pump",
+        "require": {
+            "bucket": 1
+        }
+    },
+    "bucket of fuel": {
+        "obtained": 1,
+        "obtaining": "refinery",
+        "require": {
+            "bucket of oil": 1
+        }
+    },
+    "nether ice": {
+        "obtained": 1,
+        "obtaining": "geo_miner",
+        "require": {}
+    },
+    "refinery": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hardened glass": 4,
+            "redstone alloy ingot": 2,
+            "piston": 2,
+            "electric motor": 1
+        }
+    },
+    "lava generator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold ingot (16-carat)": 1,
+            "damascus steel ingot": 3,
+            "electric motor": 1,
+            "heating coil": 2
+        }
+    },
+    "lava generator (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "corinthian bronze ingot": 3,
+            "compressed carbon": 3,
+            "lava generator": 1,
+            "heating coil": 2
+        }
+    },
+    "combustion reactor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "steel ingot": 4,
+            "electric motor": 1,
+            "heating coil": 2
+        }
+    },
+    "gps teleporter pylon": {
+        "obtained": 8,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "zinc ingot": 4,
+            "glass": 4,
+            "heating coil": 1
+        }
+    },
+    "gps teleporter matrix": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gps teleporter pylon": 4,
+            "reinforced alloy ingot": 2,
+            "electromagnet": 2,
+            "gps control panel": 1
+        }
+    },
+    "portable teleporter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electromagnet": 2,
+            "carbonado gps transmitter": 1,
+            "reinforced plate": 2,
+            "gps teleporter matrix": 1,
+            "blistering ingot": 2,
+            "medium energy capacitor": 1
+        }
+    },
+    "gps activation device (shared)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "stone_pressure_plate": 1,
+            "redstone": 2,
+            "gps transmitter": 1,
+            "billon ingot": 3
+        }
+    },
+    "gps activation device (personal)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lead ingot": 2,
+            "cobalt ingot": 2,
+            "gps activation device (shared)": 1
+        }
+    },
+    "infused hopper": {
+        "obtained": 1,
+        "obtaining": "ancient_altar",
+        "require": {
+            "obsidian": 2,
+            "ancient rune [earth]": 2,
+            "hopper": 2,
+            "ancient rune [ender]": 2,
+            "infused magnet": 1
+        }
+    },
+    "blistering ingot (33%)": {
+        "obtained": 1,
+        "obtaining": "heated_pressure_chamber",
+        "require": {
+            "gold ingot (24-carat)": 1,
+            "uranium": 1
+        }
+    },
+    "blistering ingot (66%)": {
+        "obtained": 1,
+        "obtaining": "heated_pressure_chamber",
+        "require": {
+            "blistering ingot (33%)": 1,
+            "carbonado": 1
+        }
+    },
+    "blistering ingot": {
+        "obtained": 1,
+        "obtaining": "heated_pressure_chamber",
+        "require": {
+            "blistering ingot (66%)": 1,
+            "nether_star": 1
+        }
+    },
+    "enriched nether ice": {
+        "obtained": 4,
+        "obtaining": "heated_pressure_chamber",
+        "require": {
+            "nether ice": 1,
+            "plutonium": 1
+        }
+    },
+    "elevator plate": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "stone_pressure_plate": 1,
+            "piston": 2,
+            "electric motor": 1,
+            "aluminum bronze ingot": 3
+        }
+    },
+    "food fabricator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "billon ingot": 2,
+            "silver ingot": 1,
+            "tin can": 2,
+            "small energy capacitor": 1,
+            "electric motor": 1
+        }
+    },
+    "food fabricator (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hardened metal": 2,
+            "reinforced alloy ingot": 1,
+            "electric motor": 2,
+            "food fabricator": 1,
+            "electromagnet": 1
+        }
+    },
+    "organic food": {
+        "obtained": 2,
+        "obtaining": "food_fabricator",
+        "require": {
+            "tin can": 1,
+            "seagrass": 1
+        }
+    },
+    "auto-breeder": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "gold ingot (18-carat)": 2,
+            "tin can": 1,
+            "electric motor": 2,
+            "hay_block": 1,
+            "lead ingot": 2,
+            "food fabricator": 1
+        }
+    },
+    "animal growth accelerator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "blistering ingot": 1,
+            "electric motor": 2,
+            "organic food": 1,
+            "reinforced alloy ingot": 2,
+            "auto-breeder": 1
+        }
+    },
+    "tree growth accelerator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado": 1,
+            "electric motor": 2,
+            "diamond_axe": 1,
+            "magnesium salt": 2,
+            "big energy capacitor": 1
+        }
+    },
+    "exp collector": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "blistering ingot": 1,
+            "wither-proof obsidian": 2,
+            "auto enchanter": 1,
+            "aluminum bronze ingot": 2,
+            "electric motor": 1
+        }
+    },
+    "food composter": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "damascus steel ingot": 2,
+            "food fabricator": 1,
+            "tin can": 2,
+            "medium energy capacitor": 1,
+            "electric motor": 1
+        }
+    },
+    "food composter (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hardened metal": 2,
+            "reinforced alloy ingot": 1,
+            "electric motor": 2,
+            "food composter": 1,
+            "electromagnet": 1
+        }
+    },
+    "organic fertilizer": {
+        "obtained": 2,
+        "obtaining": "food_composter",
+        "require": {
+            "organic food": 1
+        }
+    },
+    "crop growth accelerator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "blistering ingot": 1,
+            "electric motor": 2,
+            "programmable android (farmer)": 1,
+            "electromagnet": 2,
+            "animal growth accelerator": 1
+        }
+    },
+    "crop growth accelerator (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "blistering ingot": 1,
+            "electric motor": 2,
+            "crop growth accelerator": 1,
+            "electromagnet": 2,
+            "advanced circuit board": 1
+        }
+    },
+    "freezer": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "silver ingot": 1,
+            "electric motor": 2,
+            "packed_ice": 1,
+            "cooling unit": 2,
+            "medium energy capacitor": 1
+        }
+    },
+    "freezer (ii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "silver ingot": 1,
+            "electromagnet": 2,
+            "freezer": 1,
+            "cooling unit": 2,
+            "aluminum brass ingot": 1
+        }
+    },
+    "freezer (iii)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "reinforced alloy ingot": 3,
+            "electromagnet": 2,
+            "freezer (ii)": 1,
+            "cooling unit": 3
+        }
+    },
+    "reactor coolant cell": {
+        "obtained": 1,
+        "obtaining": "freezer",
+        "require": {
+            "blue_ice": 1
+        }
+    },
+    "nether ice coolant cell": {
+        "obtained": 8,
+        "obtaining": "heated_pressure_chamber",
+        "require": {
+            "enriched nether ice": 1
+        }
+    },
+    "neptunium": {
+        "obtained": 1,
+        "obtaining": "nuclear_reactor",
+        "require": {
+            "uranium": 1
+        }
+    },
+    "plutonium": {
+        "obtained": 1,
+        "obtaining": "nuclear_reactor",
+        "require": {
+            "neptunium": 1
+        }
+    },
+    "boosted uranium": {
+        "obtained": 1,
+        "obtaining": "heated_pressure_chamber",
+        "require": {
+            "plutonium": 1,
+            "uranium": 1
+        }
+    },
+    "nuclear reactor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "blistering ingot": 2,
+            "carbonado edged energy capacitor": 1,
+            "reinforced plate": 3,
+            "cooling unit": 1,
+            "lead ingot": 2
+        }
+    },
+    "nether star reactor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "boosted uranium": 2,
+            "carbonado edged energy capacitor": 1,
+            "reinforced plate": 3,
+            "nether_star": 1,
+            "corinthian bronze ingot": 2
+        }
+    },
+    "cargo motor": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hardened glass": 4,
+            "electromagnet": 2,
+            "silver ingot": 2,
+            "electric motor": 1
+        }
+    },
+    "cargo manager": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hologram projector": 1,
+            "reinforced plate": 2,
+            "cargo motor": 1,
+            "aluminum bronze ingot": 2,
+            "android memory core": 1
+        }
+    },
+    "cargo node (connector)": {
+        "obtained": 4,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "bronze ingot": 4,
+            "silver ingot": 4,
+            "cargo motor": 1
+        }
+    },
+    "cargo node (input)": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hopper": 2,
+            "billon ingot": 2,
+            "cargo node (connector)": 1
+        }
+    },
+    "cargo node (output)": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hopper": 2,
+            "brass ingot": 2,
+            "cargo node (connector)": 1
+        }
+    },
+    "advanced cargo node (output)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cargo motor": 2,
+            "cobalt ingot": 2,
+            "cargo node (output)": 1
+        }
+    },
+    "reactor access port": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "blistering ingot": 1,
+            "lead ingot": 2,
+            "cargo motor": 1,
+            "electric motor": 1
+        }
+    },
+    "fluid pump": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "medium energy capacitor": 1,
+            "bucket": 2,
+            "cargo motor": 1,
+            "oil pump": 1
+        }
+    },
+    "trash can": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "portable dustbin": 1,
+            "lead ingot": 3,
+            "cargo motor": 1,
+            "aluminum ingot": 2
+        }
+    },
+    "carbon press": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbon": 4,
+            "electric motor": 1,
+            "heated pressure chamber": 1,
+            "heating coil": 2,
+            "carbonado": 1
+        }
+    },
+    "carbon press - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado": 2,
+            "electric motor": 1,
+            "carbon": 2,
+            "carbon press": 1,
+            "heating coil": 2,
+            "electromagnet": 1
+        }
+    },
+    "carbon press - iii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "carbonado": 2,
+            "electric motor": 1,
+            "reinforced alloy ingot": 2,
+            "carbon press - ii": 1,
+            "heating coil": 2,
+            "electromagnet": 1
+        }
+    },
+    "electric smeltery": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "nether_bricks": 2,
+            "electric motor": 2,
+            "heating coil": 2,
+            "electric ingot factory": 1,
+            "gilded iron": 2
+        }
+    },
+    "electric smeltery - ii": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "damascus steel ingot": 2,
+            "power crystal": 1,
+            "heating coil": 2,
+            "electric smeltery": 1,
+            "gilded iron": 2,
+            "electric motor": 1
+        }
+    },
+    "iron golem assembler": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "blistering ingot": 2,
+            "advanced circuit board": 1,
+            "iron_block": 2,
+            "android memory core": 1,
+            "electric motor": 1,
+            "reinforced alloy ingot": 1,
+            "carbonado edged energy capacitor": 1
+        }
+    },
+    "wither assembler": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "blistering ingot": 2,
+            "nether_star": 1,
+            "wither-proof obsidian": 2,
+            "android memory core": 1,
+            "electric motor": 1,
+            "reinforced alloy ingot": 1,
+            "carbonado edged energy capacitor": 1
+        }
+    },
+    "tape measure": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "silicon": 3,
+            "yellow_dye": 4,
+            "string": 1,
+            "gilded iron": 1
+        }
+    },
+    "bee helmet": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gold ingot (8-carat)": 2,
+            "honey_block": 1,
+            "honeycomb_block": 2
+        }
+    },
+    "bee wings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gold ingot (8-carat)": 3,
+            "honeycomb_block": 2,
+            "elytra": 1,
+            "honey_block": 2
+        }
+    },
+    "bee leggings": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gold ingot (8-carat)": 2,
+            "honey_block": 1,
+            "honeycomb_block": 4
+        }
+    },
+    "bee boots": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "gold ingot (8-carat)": 2,
+            "honey_block": 2
+        }
+    },
+    "ancient rune [villagers]": {
+        "obtained": 3,
+        "obtaining": "ancient_altar",
+        "require": {
+            "magical lump - iii": 2,
+            "magical glass": 2,
+            "crying_obsidian": 2,
+            "strange nether goo": 2,
+            "ancient rune [fire]": 1
+        }
+    },
+    "strange nether goo": {
+        "obtained": 1,
+        "obtaining": "barter_drop",
+        "require": {
+            "piglin": 1
+        }
+    },
+    "glow berry juice": {
+        "obtained": 1,
+        "obtaining": "juicer",
+        "require": {
+            "glow_berries": 1
+        }
+    },
+    "elytra cap": {
+        "obtained": 1,
+        "obtaining": "armor_forge",
+        "require": {
+            "slime_ball": 5,
+            "elytra scale": 3,
+            "leather_helmet": 1
+        }
+    },
+    "crafting motor": {
+        "obtained": 2,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "crafting_table": 4,
+            "blistering ingot": 2,
+            "redstone alloy ingot": 2,
+            "cargo motor": 1
+        }
+    },
+    "auto-crafter (vanilla)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "cargo motor": 1,
+            "crafting_table": 2,
+            "crafting motor": 1,
+            "electric motor": 1
+        }
+    },
+    "auto-crafter (enhanced)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "crafting motor": 1,
+            "crafting_table": 2,
+            "dispenser": 1,
+            "cargo motor": 1
+        }
+    },
+    "auto-crafter (armor forge)": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "crafting motor": 1,
+            "dispenser": 2,
+            "anvil": 1,
+            "crafting_table": 2,
+            "electric motor": 1
+        }
+    },
+    "produce collector": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "hay_block": 1,
+            "bucket": 2,
+            "medium energy capacitor": 1,
+            "aluminum brass ingot": 2,
+            "electric motor": 1
+        }
+    }
+}
