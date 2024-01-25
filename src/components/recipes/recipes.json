@@ -55,6 +55,13 @@
             "dispenser": 1
         }
     },
+    "portable_dustbin": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "iron_ingot": 8
+        }
+    },
     "beef_jerky": {
         "obtained": 1,
         "obtaining": "enhanced_crafting_table",
@@ -346,13 +353,6 @@
         "require": {
             "nether_brick": 5,
             "gold_pan": 1
-        }
-    },
-    "sifted_ore": {
-        "obtained": 1,
-        "obtaining": "gold_pan",
-        "require": {
-            "gravel": 1
         }
     },
     "makeshift_smeltery": {
@@ -719,13 +719,6 @@
             "iron_ingot": 1,
             "iron_dust": 1,
             "silicon": 1
-        }
-    },
-    "magnesium_dust": {
-        "obtained": 1,
-        "obtaining": "ore_washer",
-        "require": {
-            "sifted_ore": 1
         }
     },
     "copper_ingot": {
@@ -1153,13 +1146,6 @@
         "obtaining": "smeltery",
         "require": {
             "gold_dust": 1
-        }
-    },
-    "stone_chunk": {
-        "obtained": 1,
-        "obtaining": "ore_washer",
-        "require": {
-            "sifted_ore": 1
         }
     },
     "silicon": {
@@ -1915,6 +1901,26 @@
         "require": {
             "oak_trapdoor": 1,
             "cauldron": 1
+        }
+    },
+    "industrial_miner": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "piston": 2,
+            "chest": 1,
+            "iron_block": 2,
+            "blast_furnace": 1
+        }
+    },
+    "advanced_industrial_miner": {
+        "obtained": 1,
+        "obtaining": "multiblock",
+        "require": {
+            "piston": 2,
+            "chest": 1,
+            "diamond_block": 2,
+            "blast_furnace": 1
         }
     },
     "boots_of_the_stomper": {
@@ -2980,6 +2986,37 @@
             "electric_motor": 2,
             "electric_gold_pan_2": 1,
             "cobalt_ingot": 2,
+            "blistering_ingot_3": 1
+        }
+    },
+    "electric_dust_washer": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "water_bucket": 1,
+            "electro_magnet": 2,
+            "electric_gold_pan": 1,
+            "copper_ingot": 3
+        }
+    },
+    "electric_dust_washer_2": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "water_bucket": 1,
+            "electro_magnet": 2,
+            "electric_dust_washer": 1,
+            "damascus_steel_ingot": 3
+        }
+    },
+    "electric_dust_washer_3": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "water_bucket": 1,
+            "electro_magnet": 2,
+            "electric_dust_washer_2": 1,
+            "corinthian_bronze_ingot": 2,
             "blistering_ingot_3": 1
         }
     },
@@ -5388,6 +5425,13 @@
         "require": {
             "mag_thor": 7,
             "big_capacitor": 1
+        }
+    },
+    "coal_dust": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "coal": 1
         }
     },
     "raw_carbon_fibre": {
@@ -7955,6 +7999,13 @@
             "compressed_cobblestone_4": 9
         }
     },
+    "void_dust": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "void_bit": 9
+        }
+    },
     "void_ingot": {
         "obtained": 1,
         "obtaining": "enhanced_crafting_table",
@@ -8472,6 +8523,27 @@
             "machine_core": 1
         }
     },
+    "dust_extractor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electric_ore_grinder_2": 2,
+            "electric_gold_pan_3": 2,
+            "electric_dust_washer_3": 2,
+            "machine_circuit": 2,
+            "machine_core": 1
+        }
+    },
+    "infinity_dust_extractor": {
+        "obtained": 1,
+        "obtaining": "infinity_forge",
+        "require": {
+            "void_ingot": 20,
+            "infinite_ingot": 8,
+            "infinite_machine_circuit": 2,
+            "dust_extractor": 6
+        }
+    },
     "cobble_press": {
         "obtained": 1,
         "obtaining": "enhanced_crafting_table",
@@ -8539,6 +8611,15 @@
             "machine_plate": 4,
             "void_ingot": 4,
             "advanced_geo_miner": 1
+        }
+    },
+    "quarry_oscillator_redstone": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "machine_plate": 4,
+            "blistering_ingot_3": 4,
+            "redstone": 1
         }
     },
     "quarry_oscillator_lapis_lazuli": {
@@ -9080,6 +9161,34 @@
         "obtaining": "drop-redstone",
         "require": {}
     },
+    "material_chromium_dust": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "chunk_chromite": 1
+        }
+    },
+    "material_bastnaesite_dust": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "material_bastnaesite_chunk": 1
+        }
+    },
+    "material_antimony_dust": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "material_antimony_chunk": 1
+        }
+    },
+    "material_rhenium_dust": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "material_rhenium_chunk": 1
+        }
+    },
     "material_chromium_ingot": {
         "obtained": 1,
         "obtaining": "smeltery",
@@ -9454,6 +9563,18 @@
         "require": {
             "player_head": 1
         }
+    },
+    "star_dust": {
+        "obtained": 1,
+        "obtaining": "grind_stone",
+        "require": {
+            "stardust_meteor": 1
+        }
+    },
+    "stardust_meteor": {
+        "obtained": 1,
+        "obtaining": "geo_miner",
+        "require": {}
     },
     "ghostly_essence": {
         "obtained": 1,
@@ -10152,6 +10273,17 @@
             "vex_gem": 1
         }
     },
+    "dt_redstone_mineralized_apiary": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "large_capacitor": 2,
+            "redstone": 3,
+            "material_hive": 1,
+            "machine_scrap": 2,
+            "vex_gem": 1
+        }
+    },
     "dt_coal_mineralized_apiary": {
         "obtained": 1,
         "obtaining": "enhanced_crafting_table",
@@ -10320,6 +10452,16 @@
             "lead_dust": 2,
             "small_capacitor": 1,
             "campfire": 3
+        }
+    },
+    "stardust_reactor": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "fire_charge": 3,
+            "nuclear_reactor": 1,
+            "advanced_machine_scrap": 2,
+            "ancient_machine_core": 1
         }
     },
     "quirp_up": {
@@ -11123,6 +11265,13 @@
         "obtained": 1,
         "obtaining": "meteor_attractor",
         "require": {}
+    },
+    "osmium_dust": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "osmium_meteor": 1
+        }
     },
     "osmium_ingot": {
         "obtained": 1,
@@ -17868,6 +18017,14 @@
             "ingot_cast_smithium": 1
         }
     },
+    "industrious_trait_prop_rod_ingot_cast_smithium": {
+        "obtained": 1,
+        "obtaining": "dummy-smeltery-alloy",
+        "require": {
+            "player_head": 1,
+            "ingot_cast_smithium": 1
+        }
+    },
     "heat_resistance_trait_prop_plates_ingot_cast_smithium": {
         "obtained": 1,
         "obtaining": "dummy-smeltery-alloy",
@@ -23138,6 +23295,14 @@
             "bucket": 1
         }
     },
+    "molten_[redstone_dust]": {
+        "obtained": 1,
+        "obtaining": "melter",
+        "require": {
+            "redstone": 1,
+            "bucket": 1
+        }
+    },
     "molten_[redstone_ore]": {
         "obtained": 1,
         "obtaining": "melter",
@@ -25624,6 +25789,13 @@
             "gce_pocket_chicken": 1
         }
     },
+    "gce_lead_dust_chicken_icon": {
+        "obtained": 1,
+        "obtaining": "from_chicken",
+        "require": {
+            "gce_pocket_chicken": 1
+        }
+    },
     "gce_dirt_chicken_icon": {
         "obtained": 1,
         "obtaining": "from_chicken",
@@ -25639,6 +25811,13 @@
         }
     },
     "gce_clay_chicken_icon": {
+        "obtained": 1,
+        "obtaining": "from_chicken",
+        "require": {
+            "gce_pocket_chicken": 1
+        }
+    },
+    "gce_aluminum_dust_chicken_icon": {
         "obtained": 1,
         "obtaining": "from_chicken",
         "require": {
@@ -25708,6 +25887,13 @@
             "gce_pocket_chicken": 1
         }
     },
+    "gce_tin_dust_chicken_icon": {
+        "obtained": 1,
+        "obtaining": "from_chicken",
+        "require": {
+            "gce_pocket_chicken": 1
+        }
+    },
     "gce_lava_chicken_icon": {
         "obtained": 1,
         "obtaining": "from_chicken",
@@ -25730,6 +25916,13 @@
         }
     },
     "gce_magnesium_dust_chicken_icon": {
+        "obtained": 1,
+        "obtaining": "from_chicken",
+        "require": {
+            "gce_pocket_chicken": 1
+        }
+    },
+    "gce_copper_dust_chicken_icon": {
         "obtained": 1,
         "obtaining": "from_chicken",
         "require": {
@@ -25806,6 +25999,20 @@
             "gce_pocket_chicken": 1
         }
     },
+    "gce_zinc_dust_chicken_icon": {
+        "obtained": 1,
+        "obtaining": "from_chicken",
+        "require": {
+            "gce_pocket_chicken": 1
+        }
+    },
+    "gce_silver_dust_chicken_icon": {
+        "obtained": 1,
+        "obtaining": "from_chicken",
+        "require": {
+            "gce_pocket_chicken": 1
+        }
+    },
     "gce_phantom_membrane_chicken_icon": {
         "obtained": 1,
         "obtaining": "from_chicken",
@@ -25814,6 +26021,20 @@
         }
     },
     "gce_string_chicken_icon": {
+        "obtained": 1,
+        "obtaining": "from_chicken",
+        "require": {
+            "gce_pocket_chicken": 1
+        }
+    },
+    "gce_gold_dust_chicken_icon": {
+        "obtained": 1,
+        "obtaining": "from_chicken",
+        "require": {
+            "gce_pocket_chicken": 1
+        }
+    },
+    "gce_iron_dust_chicken_icon": {
         "obtained": 1,
         "obtaining": "from_chicken",
         "require": {
@@ -26335,6 +26556,27 @@
             "magnesium_ingot": 2
         }
     },
+    "electric_dust_fabricator": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "electric_ore_grinder_2": 3,
+            "electric_gold_pan_3": 2,
+            "blistering_ingot_3": 1,
+            "electric_motor": 2,
+            "electric_dust_washer_3": 1
+        }
+    },
+    "electric_dust_recycler": {
+        "obtained": 1,
+        "obtaining": "enhanced_crafting_table",
+        "require": {
+            "lava_bucket": 4,
+            "piston": 2,
+            "electrified_crucible_3": 1,
+            "electric_motor": 2
+        }
+    },
     "alternate_elevator_plate": {
         "obtained": 2,
         "obtaining": "enhanced_crafting_table",
@@ -26524,11 +26766,25 @@
             "atmospheric_gas_hydrogen": 3
         }
     },
+    "moon_dust": {
+        "obtained": 1,
+        "obtaining": "world_gen",
+        "require": {
+            "andesite": 1
+        }
+    },
     "moon_rock": {
         "obtained": 1,
         "obtaining": "world_gen",
         "require": {
             "andesite": 1
+        }
+    },
+    "mars_dust": {
+        "obtained": 1,
+        "obtaining": "world_gen",
+        "require": {
+            "red_sand": 1
         }
     },
     "mars_rock": {
@@ -26881,6 +27137,13 @@
         "require": {
             "blistering_volcanic_ingot": 1,
             "moon_dust": 8
+        }
+    },
+    "laserite_dust": {
+        "obtained": 1,
+        "obtaining": "ore_crusher",
+        "require": {
+            "laserite_ore": 1
         }
     },
     "laserite": {
@@ -132804,12 +133067,26 @@
             "cornflower": 1
         }
     },
+    "pure_bone_dust": {
+        "obtained": 1,
+        "obtaining": "compressor",
+        "require": {
+            "purified_bone": 6
+        }
+    },
     "bucket_of_blood": {
         "obtained": 1,
         "obtaining": "magic_workbench",
         "require": {
             "blood": 8,
             "bucket": 1
+        }
+    },
+    "pixie_dust": {
+        "obtained": 8,
+        "obtaining": "grind_stone",
+        "require": {
+            "pixie_queen_heart": 1
         }
     },
     "vile_seeds": {
@@ -136842,6 +137119,96 @@
             "cry_crystal_polychromatic": 1,
             "cry_crystal_kaleidoscopic": 1,
             "cry_crystal_motley": 1
+        }
+    },
+    "cry_amalgamate_dust_common": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "cry_crystal_common_elemental": 1,
+            "cry_crystal_common_mechanical": 1,
+            "cry_crystal_common_alchemical": 1,
+            "cry_crystal_common_historical": 1,
+            "cry_crystal_common_human": 1,
+            "cry_crystal_common_animal": 1,
+            "cry_crystal_common_celestial": 1,
+            "cry_crystal_common_void": 1,
+            "cry_crystal_common_philosophical": 1
+        }
+    },
+    "cry_amalgamate_dust_uncommon": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "cry_crystal_uncommon_elemental": 1,
+            "cry_crystal_uncommon_mechanical": 1,
+            "cry_crystal_uncommon_alchemical": 1,
+            "cry_crystal_uncommon_historical": 1,
+            "cry_crystal_uncommon_human": 1,
+            "cry_crystal_uncommon_animal": 1,
+            "cry_crystal_uncommon_celestial": 1,
+            "cry_crystal_uncommon_void": 1,
+            "cry_crystal_uncommon_philosophical": 1
+        }
+    },
+    "cry_amalgamate_dust_rare": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "cry_crystal_rare_elemental": 1,
+            "cry_crystal_rare_mechanical": 1,
+            "cry_crystal_rare_alchemical": 1,
+            "cry_crystal_rare_historical": 1,
+            "cry_crystal_rare_human": 1,
+            "cry_crystal_rare_animal": 1,
+            "cry_crystal_rare_celestial": 1,
+            "cry_crystal_rare_void": 1,
+            "cry_crystal_rare_philosophical": 1
+        }
+    },
+    "cry_amalgamate_dust_epic": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "cry_crystal_epic_elemental": 1,
+            "cry_crystal_epic_mechanical": 1,
+            "cry_crystal_epic_alchemical": 1,
+            "cry_crystal_epic_historical": 1,
+            "cry_crystal_epic_human": 1,
+            "cry_crystal_epic_animal": 1,
+            "cry_crystal_epic_celestial": 1,
+            "cry_crystal_epic_void": 1,
+            "cry_crystal_epic_philosophical": 1
+        }
+    },
+    "cry_amalgamate_dust_mythical": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "cry_crystal_mythical_elemental": 1,
+            "cry_crystal_mythical_mechanical": 1,
+            "cry_crystal_mythical_alchemical": 1,
+            "cry_crystal_mythical_historical": 1,
+            "cry_crystal_mythical_human": 1,
+            "cry_crystal_mythical_animal": 1,
+            "cry_crystal_mythical_celestial": 1,
+            "cry_crystal_mythical_void": 1,
+            "cry_crystal_mythical_philosophical": 1
+        }
+    },
+    "cry_amalgamate_dust_unique": {
+        "obtained": 1,
+        "obtaining": "magic_workbench",
+        "require": {
+            "cry_crystal_unique_elemental": 1,
+            "cry_crystal_unique_mechanical": 1,
+            "cry_crystal_unique_alchemical": 1,
+            "cry_crystal_unique_historical": 1,
+            "cry_crystal_unique_human": 1,
+            "cry_crystal_unique_animal": 1,
+            "cry_crystal_unique_celestial": 1,
+            "cry_crystal_unique_void": 1,
+            "cry_crystal_unique_philosophical": 1
         }
     },
     "cry_amalgamate_ingot_common": {

@@ -2,7 +2,7 @@ import json
 import os
 import re
 
-# Used to convert items.json (from https://github.com/TheSilentPro/SlimefunScrapper/blob/master/items.json) to recipes.json 
+# Used to convert items.json (exported using https://github.com/ybw0014/SfItemsExporter) to recipes.json 
 
 color_pattern = re.compile(r'Â§[0-9a-z]')
 def clean_name(input_text):
@@ -22,6 +22,10 @@ def reformat_item(item):
     for ingredient in item['recipe']:
         if ingredient and ingredient['material']:
             ingredient_name = clean_name(ingredient['material'])
+            if ingredient_name == 'sifted_ore' and 'ore_washer' in item['recipeType']: return
+            if 'gold_pan' in item['recipeType']: return
+            if ingredient_name == 'iron_ore' and 'ore_crusher' in item['recipeType']: return
+            if ingredient_name == 'gold_ore' and 'ore_crusher' in item['recipeType']: return
             if ingredient_name not in formatted_item[item_name]["require"]: formatted_item[item_name]["require"][ingredient_name] = 0
             formatted_item[item_name]["require"][ingredient_name] += ingredient.get('amount', 1)
     
@@ -46,10 +50,9 @@ def main():
     formatted_items = {}
 
     for item in input_data:
-        # print(item['id']+' '+ clean_name(item['name']))
-        item_name = clean_name(item['name'])
-        if 'dust' in item_name: continue
-        formatted_items.update(reformat_item(item))
+        # item_name = clean_name(item['id'])
+        formatted_item = reformat_item(item)
+        if formatted_item: formatted_items.update(formatted_item)
 
     output_data = json.dumps(formatted_items, indent=4)
     
