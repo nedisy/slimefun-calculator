@@ -1,4 +1,5 @@
 import type { RecipeObject, StepObject, StepObjects, KeyNumberPair } from '../types'
+import cleanSteps from './step-result-cleaner';
 
 const clone = require("deepclone");
 const recipes: {[key: string]: RecipeObject} = require('./recipes.json')
@@ -21,12 +22,13 @@ const stepSearcher: Function = ( items: [string, number][], exceptions: KeyNumbe
                 }
             } else {
                 selected.required = itemNumber
-                listed[0][value[0]] = selected
+                listed[0][itemName] = selected
             }            
         }
     })
 
     deepStepSearch(listed, exceptions)
+    cleanSteps(listed)
     return listed
 }
 
@@ -43,7 +45,9 @@ const deepStepSearch: Function = (listed: StepObjects[], exceptions: KeyNumberPa
 
     currentStepKeys.forEach((currentStepKey) => {
         if (Object.keys(exceptions).includes(currentStepKey)) {
-            listed[currentStepIndex][currentStepKey].required = Math.max(0, currentStep[currentStepKey].required - exceptions[currentStepKey])                
+            let exceptionUsed = Math.min(currentStep[currentStepKey].required, exceptions[currentStepKey])
+            listed[currentStepIndex][currentStepKey].required -= exceptionUsed
+            exceptions[currentStepKey] -= exceptionUsed
             if (listed[currentStepIndex][currentStepKey].required === 0) {
                 delete listed[currentStepIndex][currentStepKey]
                 currentStepKeys = currentStepKeys.filter(key => key !== currentStepKey)

@@ -136,11 +136,13 @@ class StepResult extends React.PureComponent<StepResultProps> {
                                                 const obtainingMethod = this.state.prevSteps[index][subStep].obtaining
                                                 const obtained = this.state.prevSteps[index][subStep].obtained
                                                 const amount = this.state.prevSteps[index][subStep].required
-                                                const stacks = Math.floor(amount/64)
+                                                const shulkerBoxes = Math.floor(amount/(64*27))
+                                                const shulkerBoxDisplayed = shulkerBoxes > 0 ? shulkerBoxes > 1 ? `${shulkerBoxes} shulker boxes, ` : `${shulkerBoxes} shulker box, ` : ''                  
+                                                const stacks = Math.floor(amount/64) % 27
                                                 const stackDisplayed = stacks > 0 ? stacks > 1 ? `${stacks} stacks` : `${stacks} stack` : ''
                                                 const remainder = amount % 64
                                                 const remainderDisplayed = remainder > 0 ? stacks > 0 ? ` and ${remainder}` : `${remainder}` : ''
-                                                const required = stackDisplayed + remainderDisplayed
+                                                const required = shulkerBoxDisplayed + stackDisplayed + remainderDisplayed
                                                 const require = this.state.prevSteps[index][subStep].require
                                                 if (obtainingMethod === 'gathering') {
                                                     return (
@@ -162,11 +164,13 @@ class StepResult extends React.PureComponent<StepResultProps> {
                                                         <ul>
                                                             {Object.keys(require).map((requirement) => {
                                                                 const requiredAmount = require[requirement]*Math.ceil(amount/obtained)
-                                                                const requiredStacks = Math.floor(requiredAmount/64)
+                                                                const requiredShulkerBoxes = Math.floor(amount/(64*27))
+                                                                const requiredShulkerBoxDisplayed = requiredShulkerBoxes > 0 ? requiredShulkerBoxes > 1 ? `${requiredShulkerBoxes} shulker boxes, ` : `${requiredShulkerBoxes} shulker box, ` : ''  
+                                                                const requiredStacks = Math.floor(requiredAmount/64) % 27
                                                                 const requiredStackDisplayed = requiredStacks > 0 ? requiredStacks > 1 ? `${requiredStacks} stacks` : `${requiredStacks} stack` : ''
                                                                 const requiredRemainder = requiredAmount % 64
                                                                 const requiredRemainderDisplayed = requiredRemainder > 0 ? requiredStacks > 0 ? ` and ${requiredRemainder}` : `${requiredRemainder}` : ''
-                                                                const required2 = requiredStackDisplayed + requiredRemainderDisplayed
+                                                                const required2 = requiredShulkerBoxDisplayed + requiredStackDisplayed + requiredRemainderDisplayed
                                                                 return (
                                                                     <li  key={`${subStep}-${requirement}`}>{`${required2} ${requirement}`}</li>
                                                                 )
