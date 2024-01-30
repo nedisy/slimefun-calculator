@@ -1,7 +1,6 @@
 import type { StepObjects } from '../types'
 
 const cleanSteps: Function = ( steps: StepObjects[] ): void => {
-    console.log(steps)
     const stepLength = steps.length
     steps.forEach((step, currentStepIndex) => {
         for (let comparedStepIndex = currentStepIndex + 1; comparedStepIndex < stepLength; comparedStepIndex++) {
