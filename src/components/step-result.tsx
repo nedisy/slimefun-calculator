@@ -164,7 +164,7 @@ class StepResult extends React.PureComponent<StepResultProps> {
                                                         <ul>
                                                             {Object.keys(require).map((requirement) => {
                                                                 const requiredAmount = require[requirement]*Math.ceil(amount/obtained)
-                                                                const requiredShulkerBoxes = Math.floor(amount/(64*27))
+                                                                const requiredShulkerBoxes = Math.floor(requiredAmount/(64*27))
                                                                 const requiredShulkerBoxDisplayed = requiredShulkerBoxes > 0 ? requiredShulkerBoxes > 1 ? `${requiredShulkerBoxes} shulker boxes, ` : `${requiredShulkerBoxes} shulker box, ` : ''  
                                                                 const requiredStacks = Math.floor(requiredAmount/64) % 27
                                                                 const requiredStackDisplayed = requiredStacks > 0 ? requiredStacks > 1 ? `${requiredStacks} stacks` : `${requiredStacks} stack` : ''
